@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -73,7 +73,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -473,7 +474,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
@@ -495,10 +497,66 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
+        },
+        {
+          "id": "L9J39x6OJe4i",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/blank_website_mobile_first/PlasmicButton2.tsx",
+          "importSpec": {
+            "modulePath": "Button2.tsx"
+          },
+          "cssFilePath": "plasmic/blank_website_mobile_first/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
-      "icons": [],
-      "images": [],
+      "icons": [
+        {
+          "id": "9OcZEOS6XKco",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "f30sqqHn8JbB",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__Icon38.tsx"
+        },
+        {
+          "id": "rx8PB0YDgyof",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Mbxg8OVFAW6t",
+          "name": "HomesvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__Homesvg.tsx"
+        },
+        {
+          "id": "B3pJBuWdbtan",
+          "name": "_7124099MenuAltIconsvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon___7124099MenuAltIconsvg.tsx"
+        },
+        {
+          "id": "-QJg3kyDQ7GD",
+          "name": "Banner1SvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__Banner1Svg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "zE8oSFv5eMfZ",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/blank_website_mobile_first/images/logopng.png"
+        },
+        {
+          "id": "1l6K783WZ7OE",
+          "name": "7124099_menu_alt_icon.svg 2",
+          "filePath": "../public/plasmic/blank_website_mobile_first/images/_7124099MenuAltIconsvg2.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/blank_website_mobile_first/PlasmicGlobalContextsProvider.tsx",
       "splitsProviderFilePath": "",
@@ -514,6 +572,28 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
       "customFunctions": []
