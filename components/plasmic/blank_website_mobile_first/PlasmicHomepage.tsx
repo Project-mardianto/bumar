@@ -59,7 +59,12 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import Navbar from "../../Navbar"; // plasmic-import: vUqIgiqOfSKO/component
+import Button2 from "../../Button2"; // plasmic-import: L9J39x6OJe4i/component
+import Footer from "../../Footer"; // plasmic-import: ioaSz0ukZyBm/component
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
+
+import { useScreenVariants as useScreenVariants_4KrsLKoCkec } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 4krsLKo_Ckec/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -67,6 +72,12 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css";
 import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plasmic.module.css"; // plasmic-import: jkU633o1Cz7HrJdwdxhVHk/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: r5Q4Z1cxFkCcTJmiuBHM4s/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: cTtvcxMxKXL7/css
+
+import Banner1SvgIcon from "../bumar/icons/PlasmicIcon__Banner1Svg"; // plasmic-import: -QJg3kyDQ7GD/icon
+import RiceSvgrepoCom2SvgIcon from "../bumar/icons/PlasmicIcon__RiceSvgrepoCom2Svg"; // plasmic-import: LzGrREkdru70/icon
+import PancakesSvgrepoComsvgIcon from "../bumar/icons/PlasmicIcon__PancakesSvgrepoComsvg"; // plasmic-import: eVEwu8Je0Nmo/icon
+import SnacksvgIcon from "../bumar/icons/PlasmicIcon__Snacksvg"; // plasmic-import: t4JoKZu8A6xe/icon
+import GiftSvgrepoComsvgIcon from "../bumar/icons/PlasmicIcon__GiftSvgrepoComsvg"; // plasmic-import: RI8S1pXwZdq5/icon
 
 createPlasmicElementProxy;
 
@@ -81,11 +92,11 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  section?: Flex__<"section">;
-  h1?: Flex__<"h1">;
-  h2?: Flex__<"h2">;
-  h3?: Flex__<"h3">;
-  text?: Flex__<"div">;
+  navbar?: Flex__<typeof Navbar>;
+  banner?: Flex__<"svg">;
+  button2?: Flex__<typeof Button2>;
+  columns?: Flex__<"div">;
+  footer?: Flex__<typeof Footer>;
 };
 
 export interface DefaultHomepageProps {}
@@ -121,6 +132,10 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const currentUser = useCurrentUser?.() || {};
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants_4KrsLKoCkec()
+  });
+
   return (
     <React.Fragment>
       <Head></Head>
@@ -148,75 +163,173 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <section
-            data-plasmic-name={"section"}
-            data-plasmic-override={overrides.section}
-            className={classNames(projectcss.all, sty.section)}
-          >
-            <h1
-              data-plasmic-name={"h1"}
-              data-plasmic-override={overrides.h1}
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1
-              )}
+          <Navbar
+            data-plasmic-name={"navbar"}
+            data-plasmic-override={overrides.navbar}
+            className={classNames("__wab_instance", sty.navbar)}
+          />
+
+          <section className={classNames(projectcss.all, sty.section__u9A)}>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__lf0JI)}
             >
-              {"Welcome to your first page."}
-            </h1>
-            <h2
-              data-plasmic-name={"h2"}
-              data-plasmic-override={overrides.h2}
-              className={classNames(
-                projectcss.all,
-                projectcss.h2,
-                projectcss.__wab_text,
-                sty.h2
-              )}
-            >
-              {"Welcome to your first page."}
-            </h2>
-            <h3
-              data-plasmic-name={"h3"}
-              data-plasmic-override={overrides.h3}
-              className={classNames(
-                projectcss.all,
-                projectcss.h3,
-                projectcss.__wab_text,
-                sty.h3
-              )}
-            >
-              {"Welcome to your first page."}
-            </h3>
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>
-                  {
-                    "If you haven't already done so, go back and learn the basics by going through the Plasmic Levels tutorial.\n\nIt's always easier to start from examples! Add a new page using a template\u2014do this from the list of pages in the top toolbar.\n\nOr press the big blue + button to start inserting items into this page.\n\nIntegrate this project into your codebase\u2014press the "
-                  }
-                </React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
+              <Banner1SvgIcon
+                data-plasmic-name={"banner"}
+                data-plasmic-override={overrides.banner}
+                className={classNames(projectcss.all, sty.banner)}
+                role={"img"}
+              />
+
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox___6Ssyj)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__a3U5Y
+                  )}
                 >
-                  {"Code"}
-                </span>
-                <React.Fragment>
+                  {"Catering Bumar"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___9VlXl
+                  )}
+                >
                   {
-                    " button in the top right and follow the quickstart instructions.\n\nJoin our Slack community (icon in bottom left) for help any time."
+                    "Salah satu perusahaan jasa katering dan Kami menerima order Nasi box / Kue kering / Snack box hampers, untuk segala keperluan acara anda. disini anda bisa memesan beragam nasi box dengan menu utama kami."
                   }
-                </React.Fragment>
-              </React.Fragment>
+                </div>
+                <Button2
+                  data-plasmic-name={"button2"}
+                  data-plasmic-override={overrides.button2}
+                  className={classNames("__wab_instance", sty.button2)}
+                  endIcon={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__tMfom)}
+                      role={"img"}
+                    />
+                  }
+                  startIcon={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__qs41H)}
+                      role={"img"}
+                    />
+                  }
+                  submitsForm={true}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__btAud
+                    )}
+                  >
+                    {"Booking now ->"}
+                  </div>
+                </Button2>
+              </Stack__>
+            </Stack__>
+            <div
+              data-plasmic-name={"columns"}
+              data-plasmic-override={overrides.columns}
+              className={classNames(projectcss.all, sty.columns)}
+            >
+              <div className={classNames(projectcss.all, sty.column__hXuCo)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__hB4FH)}
+                >
+                  <RiceSvgrepoCom2SvgIcon
+                    className={classNames(projectcss.all, sty.svg__kqw0O)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__gHoQ
+                    )}
+                  >
+                    {"Nasi Box"}
+                  </div>
+                </section>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__u0HgA)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__g8Rz)}
+                >
+                  <PancakesSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__lgbbv)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vlhPp
+                    )}
+                  >
+                    {"Kue kering"}
+                  </div>
+                </section>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__p48Kq)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__yEh3E)}
+                >
+                  <SnacksvgIcon
+                    className={classNames(projectcss.all, sty.svg__f457L)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__dKuvW
+                    )}
+                  >
+                    {"Snack Box"}
+                  </div>
+                </section>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__y7Fhy)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__shGov)}
+                >
+                  <GiftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__nlAp1)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__tomw9
+                    )}
+                  >
+                    {"Hampers "}
+                  </div>
+                </section>
+              </div>
             </div>
+          </section>
+          <section className={classNames(projectcss.all, sty.section__r9KyT)}>
+            <Footer
+              data-plasmic-name={"footer"}
+              data-plasmic-override={overrides.footer}
+              className={classNames("__wab_instance", sty.footer)}
+            />
           </section>
         </div>
       </div>
@@ -225,23 +338,23 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "h1", "h2", "h3", "text"],
-  section: ["section", "h1", "h2", "h3", "text"],
-  h1: ["h1"],
-  h2: ["h2"],
-  h3: ["h3"],
-  text: ["text"]
+  root: ["root", "navbar", "banner", "button2", "columns", "footer"],
+  navbar: ["navbar"],
+  banner: ["banner"],
+  button2: ["button2"],
+  columns: ["columns"],
+  footer: ["footer"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  section: "section";
-  h1: "h1";
-  h2: "h2";
-  h3: "h3";
-  text: "div";
+  navbar: typeof Navbar;
+  banner: "svg";
+  button2: typeof Button2;
+  columns: "div";
+  footer: typeof Footer;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -304,11 +417,11 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    section: makeNodeComponent("section"),
-    h1: makeNodeComponent("h1"),
-    h2: makeNodeComponent("h2"),
-    h3: makeNodeComponent("h3"),
-    text: makeNodeComponent("text"),
+    navbar: makeNodeComponent("navbar"),
+    banner: makeNodeComponent("banner"),
+    button2: makeNodeComponent("button2"),
+    columns: makeNodeComponent("columns"),
+    footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
