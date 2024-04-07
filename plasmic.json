@@ -931,7 +931,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-link-preview"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
