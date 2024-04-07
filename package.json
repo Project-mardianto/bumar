@@ -17,10 +17,13 @@
     "@plasmicpkgs/plasmic-link-preview": "^1.0.88",
     "@plasmicpkgs/plasmic-nav": "^0.0.161",
     "@plasmicpkgs/plasmic-rich-components": "^1.0.180",
+    "@plasmicpkgs/react-slick": "^0.0.212",
     "next": "14.1.4",
     "node-html-parser": "^6.1.13",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",

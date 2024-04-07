@@ -3850,7 +3850,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   sty.text__lImvo
                                 )}
                               >
-                                {"10Orang"}
+                                {"10 Orang"}
                               </div>
                             </Stack__>
                           </Stack__>

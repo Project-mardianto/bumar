@@ -160,7 +160,12 @@ function PlasmicFooter__RenderFunc(props: {
           {"Beranda"}
         </div>
       </div>
-      <div className={classNames(projectcss.all, sty.column__dAlX5)}>
+      <PlasmicLink__
+        className={classNames(projectcss.all, projectcss.a, sty.column__dAlX5)}
+        component={Link}
+        href={`/new-page`}
+        platform={"nextjs"}
+      >
         <Riwayatsvg2Icon
           className={classNames(projectcss.all, sty.svg__sTeQw)}
           role={"img"}
@@ -175,7 +180,7 @@ function PlasmicFooter__RenderFunc(props: {
         >
           {"Menu"}
         </div>
-      </div>
+      </PlasmicLink__>
       <div className={classNames(projectcss.all, sty.column___0C6NS)}>
         <Inboxsvg2Icon
           className={classNames(projectcss.all, sty.svg__sNp6Q)}

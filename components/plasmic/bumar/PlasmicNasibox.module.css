@@ -86,7 +86,7 @@
   position: relative;
   grid-column-start: 1 !important;
   grid-column-end: -1 !important;
-  padding: 18px 8px;
+  padding: 0px 8px 18px;
 }
 .freeBox__bDVry {
   display: flex;
@@ -484,7 +484,7 @@
 }
 .svg__bYDql {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -592,7 +592,7 @@
 }
 .svg__acSDc {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -700,7 +700,7 @@
 }
 .svg__dDBty {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -808,7 +808,7 @@
 }
 .svg__nbuWn {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -916,7 +916,7 @@
 }
 .svg___0M3W4 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1024,7 +1024,7 @@
 }
 .svg__yAjSn {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1132,7 +1132,7 @@
 }
 .svg__wshXw {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1240,7 +1240,7 @@
 }
 .svg__uFn1 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1348,7 +1348,7 @@
 }
 .svg__spxT7 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1619,7 +1619,7 @@
 }
 .svg__u6Qry {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1727,7 +1727,7 @@
 }
 .svg__wfMp5 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1835,7 +1835,7 @@
 }
 .svg__zyKmp {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -1943,7 +1943,7 @@
 }
 .svg__nzLsu {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2051,7 +2051,7 @@
 }
 .svg__ovTu3 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2159,7 +2159,7 @@
 }
 .svg__zkbpN {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2267,7 +2267,7 @@
 }
 .svg___3G62Q {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2375,7 +2375,7 @@
 }
 .svg___4RzSr {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2484,7 +2484,7 @@
 }
 .svg__i22HX {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2754,7 +2754,7 @@
 }
 .svg___8CgkB {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2862,7 +2862,7 @@
 }
 .svg__ewAlI {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -2971,7 +2971,7 @@
 }
 .svg__xwyG {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3079,7 +3079,7 @@
 }
 .svg__gvqSg {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3187,7 +3187,7 @@
 }
 .svg__vd9Wk {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3295,7 +3295,7 @@
 }
 .svg__aRded {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3403,7 +3403,7 @@
 }
 .svg__l2Xbw {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3511,7 +3511,7 @@
 }
 .svg__osvK {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3781,7 +3781,7 @@
 }
 .svg__ksZod {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3889,7 +3889,7 @@
 }
 .svg__f1Pkt {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -3997,7 +3997,7 @@
 }
 .svg__v5D45 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4105,7 +4105,7 @@
 }
 .svg__hxayS {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4213,7 +4213,7 @@
 }
 .svg__tPk3Y {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4321,7 +4321,7 @@
 }
 .svg__aHqEv {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4429,7 +4429,7 @@
 }
 .svg___4ZuSc {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4537,7 +4537,7 @@
 }
 .svg__e6Yzq {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4645,7 +4645,7 @@
 }
 .svg__mZn08 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -4914,7 +4914,7 @@
 }
 .svg__i72J {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5022,7 +5022,7 @@
 }
 .svg__sn0ZW {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5130,7 +5130,7 @@
 }
 .svg__wwlqR {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5238,7 +5238,7 @@
 }
 .svg__hMyVs {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5346,7 +5346,7 @@
 }
 .svg__eqdS {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5454,7 +5454,7 @@
 }
 .svg__jjip {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5562,7 +5562,7 @@
 }
 .svg__q5Woq {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5670,7 +5670,7 @@
 }
 .svg__qgw5 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -5778,7 +5778,7 @@
 }
 .svg__wJaNm {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6047,7 +6047,7 @@
 }
 .svg__czRck {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6156,7 +6156,7 @@
 }
 .svg__n5Nq7 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6264,7 +6264,7 @@
 }
 .svg__w00AH {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6372,7 +6372,7 @@
 }
 .svg__yRujC {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6480,7 +6480,7 @@
 }
 .svg__ocFVg {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6588,7 +6588,7 @@
 }
 .svg__c7TNg {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6696,7 +6696,7 @@
 }
 .svg__vVnmo {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6804,7 +6804,7 @@
 }
 .svg___4PFi0 {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6912,7 +6912,7 @@
 }
 .svg___1Pdyb {
   object-fit: cover;
-  color: #34c759;
+  color: var(--token-WxvvgatuPYoJ);
   width: 24px;
   height: 24px;
   flex-shrink: 0;

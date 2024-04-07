@@ -578,6 +578,20 @@
           "cssFilePath": "plasmic/bumar/PlasmicLinkPreview.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "dw_LyFeoAAxt",
+          "name": "Menu",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicMenu.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
       "icons": [
@@ -867,6 +881,11 @@
           "id": "MCyuIndPbM0x",
           "name": "image 28",
           "filePath": "../public/plasmic/bumar/images/image28.jpg"
+        },
+        {
+          "id": "4bAe1yDduZB_",
+          "name": "1650607449326-rekomendasi-hampers-lebaran-terbaik-dengan-harga-terjangkau.jpg",
+          "filePath": "../public/plasmic/bumar/images/_1650607449326RekomendasiHampersLebaranTerbaikDenganHargaTerjangkaujpg.jpg"
         }
       ],
       "indirect": false,
@@ -933,6 +952,32 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
