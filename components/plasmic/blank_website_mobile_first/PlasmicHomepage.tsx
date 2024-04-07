@@ -261,7 +261,7 @@ function PlasmicHomepage__RenderFunc(props: {
             {(() => {
               const child$Props = {
                 arrows: false,
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 0,
                 beforeChange: generateStateOnChangePropForCodeComponents(
                   $state,
