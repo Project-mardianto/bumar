@@ -61,6 +61,7 @@ import {
 
 import Navbar from "../../Navbar"; // plasmic-import: vUqIgiqOfSKO/component
 import Button2 from "../../Button2"; // plasmic-import: L9J39x6OJe4i/component
+import Footer from "../../Footer"; // plasmic-import: ioaSz0ukZyBm/component
 
 import { useScreenVariants as useScreenVariants_4KrsLKoCkec } from "../blank_website_mobile_first/PlasmicGlobalVariant__Screen"; // plasmic-import: 4krsLKo_Ckec/globalVariant
 
@@ -91,9 +92,9 @@ export type PlasmicNasibox__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
   link?: Flex__<"a"> & Partial<LinkProps>;
-  section?: Flex__<"section">;
   columns?: Flex__<"div">;
   column?: Flex__<"div">;
+  footer?: Flex__<typeof Footer>;
 };
 
 export interface DefaultNasiboxProps {}
@@ -166,24 +167,22 @@ function PlasmicNasibox__RenderFunc(props: {
             className={classNames("__wab_instance", sty.navbar)}
           />
 
-          <PlasmicLink__
-            data-plasmic-name={"link"}
-            data-plasmic-override={overrides.link}
-            className={classNames(projectcss.all, projectcss.a, sty.link)}
-            component={Link}
-            href={`/`}
-            platform={"nextjs"}
-          >
-            <ArrowLeftSvgrepoCom1SvgIcon
-              className={classNames(projectcss.all, sty.svg___1Pmxg)}
-              role={"img"}
-            />
-          </PlasmicLink__>
-          <section
-            data-plasmic-name={"section"}
-            data-plasmic-override={overrides.section}
-            className={classNames(projectcss.all, sty.section)}
-          >
+          <section className={classNames(projectcss.all, sty.section___6U7PR)}>
+            <PlasmicLink__
+              data-plasmic-name={"link"}
+              data-plasmic-override={overrides.link}
+              className={classNames(projectcss.all, projectcss.a, sty.link)}
+              component={Link}
+              href={`/`}
+              platform={"nextjs"}
+            >
+              <ArrowLeftSvgrepoCom1SvgIcon
+                className={classNames(projectcss.all, sty.svg___1Pmxg)}
+                role={"img"}
+              />
+            </PlasmicLink__>
+          </section>
+          <section className={classNames(projectcss.all, sty.section__nl3Ar)}>
             <div className={classNames(projectcss.all, sty.freeBox___5PWw)}>
               <Stack__
                 as={"div"}
@@ -4409,6 +4408,13 @@ function PlasmicNasibox__RenderFunc(props: {
               </Stack__>
             </div>
           </section>
+          <section className={classNames(projectcss.all, sty.section__dIwZ5)}>
+            <Footer
+              data-plasmic-name={"footer"}
+              data-plasmic-override={overrides.footer}
+              className={classNames("__wab_instance", sty.footer)}
+            />
+          </section>
         </div>
       </div>
     </React.Fragment>
@@ -4416,12 +4422,12 @@ function PlasmicNasibox__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "link", "section", "columns", "column"],
+  root: ["root", "navbar", "link", "columns", "column", "footer"],
   navbar: ["navbar"],
   link: ["link"],
-  section: ["section", "columns", "column"],
   columns: ["columns", "column"],
-  column: ["column"]
+  column: ["column"],
+  footer: ["footer"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -4430,9 +4436,9 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   link: "a";
-  section: "section";
   columns: "div";
   column: "div";
+  footer: typeof Footer;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -4497,9 +4503,9 @@ export const PlasmicNasibox = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     link: makeNodeComponent("link"),
-    section: makeNodeComponent("section"),
     columns: makeNodeComponent("columns"),
     column: makeNodeComponent("column"),
+    footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicNasibox
     internalVariantProps: PlasmicNasibox__VariantProps,
