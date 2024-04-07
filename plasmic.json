@@ -537,6 +537,47 @@
           "cssFilePath": "plasmic/bumar/PlasmicFooter.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "gtns0qBMJgSa",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "4JyA3B_zN86t",
+          "name": "Nasibox",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicNasibox.tsx",
+          "importSpec": {
+            "modulePath": "../pages/nasibox.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicNasibox.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/nasibox"
+        },
+        {
+          "id": "i_OgCxFjvmDC",
+          "name": "LinkPreview",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicLinkPreview.tsx",
+          "importSpec": {
+            "modulePath": "LinkPreview.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicLinkPreview.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -654,6 +695,26 @@
           "id": "8pp5pY4_QvML",
           "name": "Listsvg4Icon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg4.tsx"
+        },
+        {
+          "id": "FMq-BDCyCrJ_",
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__ChevronRight.tsx"
+        },
+        {
+          "id": "AAekp5tPCkr9",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "tMyhbkDSzlle",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "UroXee_yw1o3",
+          "name": "ArrowLeftSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__ArrowLeftSvgrepoCom1Svg.tsx"
         }
       ],
       "images": [
@@ -666,6 +727,146 @@
           "id": "1l6K783WZ7OE",
           "name": "7124099_menu_alt_icon.svg 2",
           "filePath": "../public/plasmic/bumar/images/_7124099MenuAltIconsvg2.svg"
+        },
+        {
+          "id": "1Skwz0v_nfRa",
+          "name": "image",
+          "filePath": "../public/plasmic/bumar/images/image.svg"
+        },
+        {
+          "id": "XEXrvbQCXyFU",
+          "name": "image 2",
+          "filePath": "../public/plasmic/bumar/images/image2.jpg"
+        },
+        {
+          "id": "XmlJlXvgJyTK",
+          "name": "image 3",
+          "filePath": "../public/plasmic/bumar/images/image3.avif"
+        },
+        {
+          "id": "13Yh3FZOED-W",
+          "name": "image 4",
+          "filePath": "../public/plasmic/bumar/images/image4.webp"
+        },
+        {
+          "id": "nZ5KngWqr7Mh",
+          "name": "image 5",
+          "filePath": "../public/plasmic/bumar/images/image5.jpg"
+        },
+        {
+          "id": "mNWthjMzG_Qj",
+          "name": "image 6",
+          "filePath": "../public/plasmic/bumar/images/image6.avif"
+        },
+        {
+          "id": "NncU_QaDj0DN",
+          "name": "image 7",
+          "filePath": "../public/plasmic/bumar/images/image7.png"
+        },
+        {
+          "id": "k8PyH4o-4jTf",
+          "name": "image 8",
+          "filePath": "../public/plasmic/bumar/images/image8.jpg"
+        },
+        {
+          "id": "xjf-0e6oQBUO",
+          "name": "image 9",
+          "filePath": "../public/plasmic/bumar/images/image9.jpg"
+        },
+        {
+          "id": "ytmEyV1Y6c7h",
+          "name": "image 10",
+          "filePath": "../public/plasmic/bumar/images/image10.jpg"
+        },
+        {
+          "id": "V2qSecgoWYa7",
+          "name": "image 11",
+          "filePath": "../public/plasmic/bumar/images/image11.webp"
+        },
+        {
+          "id": "juUK1DXLj828",
+          "name": "image 12",
+          "filePath": "../public/plasmic/bumar/images/image12.webp"
+        },
+        {
+          "id": "IuRKJgQGz1Fs",
+          "name": "image 13",
+          "filePath": "../public/plasmic/bumar/images/image13.jpg"
+        },
+        {
+          "id": "W6WOBtbhdY_u",
+          "name": "image 14",
+          "filePath": "../public/plasmic/bumar/images/image14.jpg"
+        },
+        {
+          "id": "vdiFDxzPHd1Y",
+          "name": "image 15",
+          "filePath": "../public/plasmic/bumar/images/image15.jpg"
+        },
+        {
+          "id": "IKpzfWyj690t",
+          "name": "image 16",
+          "filePath": "../public/plasmic/bumar/images/image16.jpg"
+        },
+        {
+          "id": "169bAVn9MZ-_",
+          "name": "image 17",
+          "filePath": "../public/plasmic/bumar/images/image17.png"
+        },
+        {
+          "id": "fQbmfcDIrQ9y",
+          "name": "image 18",
+          "filePath": "../public/plasmic/bumar/images/image18.avif"
+        },
+        {
+          "id": "1nI-a13pVejO",
+          "name": "image 19",
+          "filePath": "../public/plasmic/bumar/images/image19.png"
+        },
+        {
+          "id": "tuU1O6Y7P8sp",
+          "name": "image 20",
+          "filePath": "../public/plasmic/bumar/images/image20.avif"
+        },
+        {
+          "id": "XoQ9sj5fQ23o",
+          "name": "image 21",
+          "filePath": "../public/plasmic/bumar/images/image21.png"
+        },
+        {
+          "id": "6-ofbYaOb7G6",
+          "name": "image 22",
+          "filePath": "../public/plasmic/bumar/images/image22.png"
+        },
+        {
+          "id": "stMB6rik_jB7",
+          "name": "image 23",
+          "filePath": "../public/plasmic/bumar/images/image23.svg"
+        },
+        {
+          "id": "LIEruxTvRwoV",
+          "name": "image 24",
+          "filePath": "../public/plasmic/bumar/images/image24.png"
+        },
+        {
+          "id": "_SkTk8k-z1Dk",
+          "name": "image 25",
+          "filePath": "../public/plasmic/bumar/images/image25.png"
+        },
+        {
+          "id": "QxEIQT_nRVfh",
+          "name": "image 26",
+          "filePath": "../public/plasmic/bumar/images/image26.png"
+        },
+        {
+          "id": "a1V23hQnyWzP",
+          "name": "image 27",
+          "filePath": "../public/plasmic/bumar/images/image27.jpg"
+        },
+        {
+          "id": "MCyuIndPbM0x",
+          "name": "image 28",
+          "filePath": "../public/plasmic/bumar/images/image28.jpg"
         }
       ],
       "indirect": false,
@@ -709,6 +910,28 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "3m3vFk1dnCzZnwT8k489Jy",
+      "projectApiToken": "d0NoBGd1tp6wrhDNeukwuqttKcgFIrGA0th3U2rkGpA9QcU5FQsTwupa1shTDJEWiPozbbcBSxeb8w3dAw",
+      "projectName": "plasmic-link-preview",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_link_preview/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "4P2nwuVQH3UA",
+          "name": "LinkPreview",
+          "displayName": "plasmic-link-preview",
+          "componentImportPath": "@plasmicpkgs/plasmic-link-preview"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {

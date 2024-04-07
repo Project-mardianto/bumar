@@ -134,7 +134,7 @@ function PlasmicNavbar__RenderFunc(props: {
           <PlasmicImg__
             alt={""}
             className={classNames(sty.img__t1Az8)}
-            displayHeight={"35px"}
+            displayHeight={"45px"}
             displayMaxHeight={"none"}
             displayMaxWidth={"none"}
             displayMinHeight={"0"}
@@ -221,7 +221,7 @@ function PlasmicNavbar__RenderFunc(props: {
         <PlasmicImg__
           alt={""}
           className={classNames(sty.img__ci0C)}
-          displayHeight={"22px"}
+          displayHeight={"30px"}
           displayMaxHeight={"none"}
           displayMaxWidth={"none"}
           displayMinHeight={"0"}

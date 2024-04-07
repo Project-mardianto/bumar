@@ -189,7 +189,14 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.text__a3U5Y
                   )}
                 >
-                  {"Catering Bumar"}
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ color: "#000000" }}
+                    >
+                      {"Catering Bumar"}
+                    </span>
+                  </React.Fragment>
                 </div>
                 <div
                   className={classNames(
@@ -237,7 +244,16 @@ function PlasmicHomepage__RenderFunc(props: {
               data-plasmic-override={overrides.columns}
               className={classNames(projectcss.all, sty.columns)}
             >
-              <div className={classNames(projectcss.all, sty.column__hXuCo)}>
+              <PlasmicLink__
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.column__hXuCo
+                )}
+                component={Link}
+                href={`/nasibox`}
+                platform={"nextjs"}
+              >
                 <section
                   className={classNames(projectcss.all, sty.section__hB4FH)}
                 >
@@ -256,7 +272,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     {"Nasi Box"}
                   </div>
                 </section>
-              </div>
+              </PlasmicLink__>
               <div className={classNames(projectcss.all, sty.column__u0HgA)}>
                 <section
                   className={classNames(projectcss.all, sty.section__g8Rz)}
