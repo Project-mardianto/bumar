@@ -61,7 +61,6 @@ import {
 
 import Navbar from "../../Navbar"; // plasmic-import: vUqIgiqOfSKO/component
 import Button2 from "../../Button2"; // plasmic-import: L9J39x6OJe4i/component
-import Footer from "../../Footer"; // plasmic-import: ioaSz0ukZyBm/component
 
 import { useScreenVariants as useScreenVariants_4KrsLKoCkec } from "../blank_website_mobile_first/PlasmicGlobalVariant__Screen"; // plasmic-import: 4krsLKo_Ckec/globalVariant
 
@@ -94,7 +93,6 @@ export type PlasmicNasibox__OverridesType = {
   link?: Flex__<"a"> & Partial<LinkProps>;
   columns?: Flex__<"div">;
   column?: Flex__<"div">;
-  footer?: Flex__<typeof Footer>;
 };
 
 export interface DefaultNasiboxProps {}
@@ -4408,13 +4406,6 @@ function PlasmicNasibox__RenderFunc(props: {
               </Stack__>
             </div>
           </section>
-          <section className={classNames(projectcss.all, sty.section__dIwZ5)}>
-            <Footer
-              data-plasmic-name={"footer"}
-              data-plasmic-override={overrides.footer}
-              className={classNames("__wab_instance", sty.footer)}
-            />
-          </section>
         </div>
       </div>
     </React.Fragment>
@@ -4422,12 +4413,11 @@ function PlasmicNasibox__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "link", "columns", "column", "footer"],
+  root: ["root", "navbar", "link", "columns", "column"],
   navbar: ["navbar"],
   link: ["link"],
   columns: ["columns", "column"],
-  column: ["column"],
-  footer: ["footer"]
+  column: ["column"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -4438,7 +4428,6 @@ type NodeDefaultElementType = {
   link: "a";
   columns: "div";
   column: "div";
-  footer: typeof Footer;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -4505,7 +4494,6 @@ export const PlasmicNasibox = Object.assign(
     link: makeNodeComponent("link"),
     columns: makeNodeComponent("columns"),
     column: makeNodeComponent("column"),
-    footer: makeNodeComponent("footer"),
 
     // Metadata about props expected for PlasmicNasibox
     internalVariantProps: PlasmicNasibox__VariantProps,
