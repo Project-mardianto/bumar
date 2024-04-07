@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -73,7 +73,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -473,12 +474,13 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
       "projectApiToken": "osaxeaISpbW1SGwjBFA3oDrdP8VCTUHaBf5GBrerA21zS3CgRV3ALYy0vFiKyiP6oEda5WMVReAgH8If78mQ",
-      "projectName": "Blank website (mobile-first)",
+      "projectName": "bumar",
       "version": "latest",
       "cssFilePath": "plasmic/blank_website_mobile_first/plasmic.module.css",
       "components": [
@@ -495,10 +497,177 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
+        },
+        {
+          "id": "L9J39x6OJe4i",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicButton2.tsx",
+          "importSpec": {
+            "modulePath": "Button2.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "vUqIgiqOfSKO",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ioaSz0ukZyBm",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
-      "icons": [],
-      "images": [],
+      "icons": [
+        {
+          "id": "9OcZEOS6XKco",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "f30sqqHn8JbB",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Icon38.tsx"
+        },
+        {
+          "id": "rx8PB0YDgyof",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Mbxg8OVFAW6t",
+          "name": "HomesvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg.tsx"
+        },
+        {
+          "id": "B3pJBuWdbtan",
+          "name": "_7124099MenuAltIconsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon___7124099MenuAltIconsvg.tsx"
+        },
+        {
+          "id": "-QJg3kyDQ7GD",
+          "name": "Banner1SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Banner1Svg.tsx"
+        },
+        {
+          "id": "t4JoKZu8A6xe",
+          "name": "SnacksvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Snacksvg.tsx"
+        },
+        {
+          "id": "RI8S1pXwZdq5",
+          "name": "GiftSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__GiftSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "LzGrREkdru70",
+          "name": "RiceSvgrepoCom2SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__RiceSvgrepoCom2Svg.tsx"
+        },
+        {
+          "id": "eVEwu8Je0Nmo",
+          "name": "PancakesSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__PancakesSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "r2rr67QbVyud",
+          "name": "Homesvg2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg2.tsx"
+        },
+        {
+          "id": "dHOhAFmM36nv",
+          "name": "InboxsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Inboxsvg.tsx"
+        },
+        {
+          "id": "kxSzQOpHmA9l",
+          "name": "RiwayatsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Riwayatsvg.tsx"
+        },
+        {
+          "id": "nvkWu1B64eFp",
+          "name": "Homesvg3Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg3.tsx"
+        },
+        {
+          "id": "jBe7GDGMWm_b",
+          "name": "ListsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg.tsx"
+        },
+        {
+          "id": "XkJ_DipF_c4f",
+          "name": "Listsvg2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg2.tsx"
+        },
+        {
+          "id": "UU1KZcgINH3p",
+          "name": "Listsvg3Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg3.tsx"
+        },
+        {
+          "id": "KZj1ZHPQ5Ekf",
+          "name": "Riwayatsvg2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Riwayatsvg2.tsx"
+        },
+        {
+          "id": "CUcHhZbW7M8B",
+          "name": "Inboxsvg2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Inboxsvg2.tsx"
+        },
+        {
+          "id": "0EqDJPl0j-Q9",
+          "name": "RiceSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__RiceSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "EfYOMIhzkLwa",
+          "name": "AppointmentsSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__AppointmentsSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "awy0samUx8LK",
+          "name": "GiftSvgrepoComsvg2Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__GiftSvgrepoComsvg2.tsx"
+        },
+        {
+          "id": "8pp5pY4_QvML",
+          "name": "Listsvg4Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg4.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "zE8oSFv5eMfZ",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/bumar/images/logopng.png"
+        },
+        {
+          "id": "1l6K783WZ7OE",
+          "name": "7124099_menu_alt_icon.svg 2",
+          "filePath": "../public/plasmic/bumar/images/_7124099MenuAltIconsvg2.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/blank_website_mobile_first/PlasmicGlobalContextsProvider.tsx",
       "splitsProviderFilePath": "",
@@ -514,6 +683,28 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
       "customFunctions": []
