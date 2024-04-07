@@ -92,7 +92,6 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  navbar?: Flex__<typeof Navbar>;
   banner?: Flex__<"svg">;
   button2?: Flex__<typeof Button2>;
   columns?: Flex__<"div">;
@@ -163,11 +162,7 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <Navbar
-            data-plasmic-name={"navbar"}
-            data-plasmic-override={overrides.navbar}
-            className={classNames("__wab_instance", sty.navbar)}
-          />
+          <Navbar className={classNames("__wab_instance", sty.navbar__qNpv4)} />
 
           <section className={classNames(projectcss.all, sty.section__u9A)}>
             <Stack__
@@ -331,6 +326,13 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames("__wab_instance", sty.footer)}
             />
           </section>
+          {(
+            hasVariant(globalVariants, "screen", "desktopOnly") ? true : false
+          ) ? (
+            <Navbar
+              className={classNames("__wab_instance", sty.navbar___09PVy)}
+            />
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -338,8 +340,7 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "banner", "button2", "columns", "footer"],
-  navbar: ["navbar"],
+  root: ["root", "banner", "button2", "columns", "footer"],
   banner: ["banner"],
   button2: ["button2"],
   columns: ["columns"],
@@ -350,7 +351,6 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  navbar: typeof Navbar;
   banner: "svg";
   button2: typeof Button2;
   columns: "div";
@@ -417,7 +417,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbar: makeNodeComponent("navbar"),
     banner: makeNodeComponent("banner"),
     button2: makeNodeComponent("button2"),
     columns: makeNodeComponent("columns"),

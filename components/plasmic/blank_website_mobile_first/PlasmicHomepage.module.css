@@ -24,7 +24,7 @@
     grid-column: 4;
   }
 }
-.navbar:global(.__wab_instance):global(.__wab_instance) {
+.navbar__qNpv4:global(.__wab_instance):global(.__wab_instance) {
   position: sticky;
   top: 0px;
   left: 0px;
@@ -467,4 +467,21 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .footer:global(.__wab_instance) {
+    display: none;
+  }
+}
+.navbar___09PVy:global(.__wab_instance):global(.__wab_instance) {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .navbar___09PVy:global(.__wab_instance):global(.__wab_instance) {
+    display: none;
+  }
 }

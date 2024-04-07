@@ -173,7 +173,7 @@ function PlasmicNavbar__RenderFunc(props: {
         />
       }
       forceOpenMenu={false}
-      itemsGap={8}
+      itemsGap={18}
       menuItems={
         <React.Fragment>
           <PlasmicLink__
@@ -235,7 +235,7 @@ function PlasmicNavbar__RenderFunc(props: {
           }}
         />
       }
-      responsiveBreakpoint={768}
+      responsiveBreakpoint={1440}
     />
   ) as React.ReactElement | null;
 }
