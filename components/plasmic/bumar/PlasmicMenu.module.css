@@ -93,7 +93,7 @@
   flex-wrap: wrap;
   margin-bottom: 23px;
   min-width: 0;
-  padding: 8px 8px 45px;
+  padding: 8px 8px 110px;
 }
 .columns__g6TBp > :nth-child(2n + 1) {
   width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
