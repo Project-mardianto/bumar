@@ -78,10 +78,10 @@
     margin-top: calc(0px + 32px) !important;
   }
 }
-.columns__th5Mk {
+.columns__g6TBp {
   --plsmc-rc-col-gap: 0px;
 }
-.columns__th5Mk {
+.columns__g6TBp {
   display: flex;
   position: relative;
   width: 100%;
@@ -95,14 +95,14 @@
   min-width: 0;
   padding: 8px 8px 45px;
 }
-.columns__th5Mk > :nth-child(2n + 1) {
+.columns__g6TBp > :nth-child(2n + 1) {
   width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
-.columns__th5Mk > :nth-child(2n + 2) {
+.columns__g6TBp > :nth-child(2n + 2) {
   width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
 @media (min-width: 768px) {
-  .columns__th5Mk {
+  .columns__g6TBp {
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -111,26 +111,26 @@
   }
 }
 @media (min-width: 768px) {
-  .columns__th5Mk > :nth-child(4n + 1) {
+  .columns__g6TBp > :nth-child(4n + 1) {
     width: calc((100% - 4 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
   }
 }
 @media (min-width: 768px) {
-  .columns__th5Mk > :nth-child(4n + 2) {
+  .columns__g6TBp > :nth-child(4n + 2) {
     width: calc((100% - 4 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
   }
 }
 @media (min-width: 768px) {
-  .columns__th5Mk > :nth-child(4n + 3) {
+  .columns__g6TBp > :nth-child(4n + 3) {
     width: calc((100% - 4 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
   }
 }
 @media (min-width: 768px) {
-  .columns__th5Mk > :nth-child(4n + 4) {
+  .columns__g6TBp > :nth-child(4n + 4) {
     width: calc((100% - 4 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
   }
 }
-.column__l8St5 {
+.column__uSaUv {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -142,7 +142,7 @@
   min-width: 0;
   padding: 8px;
 }
-.section___2Musa {
+.section__m0PuH {
   display: grid;
   position: relative;
   align-content: center;
@@ -160,16 +160,16 @@
   padding: 30px 0;
   border: 1px solid var(--token-Xzi5OT07e2_1);
 }
-.section___2Musa > * {
+.section__m0PuH > * {
   grid-column: 4;
 }
-.svg__cZ4B5 {
+.svg__deAUm {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  height: 60px;
+  height: 40px;
 }
-.text__fbPqJ {
+.text__bklZd {
   position: relative;
   width: 100%;
   height: auto;
@@ -180,7 +180,7 @@
   color: #535353;
   min-width: 0;
 }
-.column__ymy27 {
+.column__g693 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -192,7 +192,7 @@
   min-width: 0;
   padding: 8px;
 }
-.section___8CfIe {
+.section__mzMfF {
   display: grid;
   position: relative;
   align-content: center;
@@ -211,16 +211,16 @@
   padding: 30px 0;
   border: 1px solid var(--token-Xzi5OT07e2_1);
 }
-.section___8CfIe > * {
+.section__mzMfF > * {
   grid-column: 4;
 }
-.svg__zPg59 {
+.svg__xsIZr {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  height: 60px;
+  height: 40px;
 }
-.text__eVtU2 {
+.text___5R8Nw {
   position: relative;
   width: 100%;
   height: auto;
@@ -231,7 +231,7 @@
   color: #535353;
   min-width: 0;
 }
-.column__jhruk {
+.column___4FAaT {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -243,7 +243,7 @@
   min-width: 0;
   padding: 0px 8px 8px;
 }
-.section__lWktt {
+.section__nLttc {
   display: grid;
   position: relative;
   align-content: center;
@@ -261,16 +261,16 @@
   padding: 30px 0;
   border: 1px solid var(--token-Xzi5OT07e2_1);
 }
-.section__lWktt > * {
+.section__nLttc > * {
   grid-column: 4;
 }
-.svg__zgj9Z {
+.svg__odyiF {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  height: 60px;
+  height: 40px;
 }
-.text__u4Goj {
+.text__pbrqn {
   position: relative;
   width: 100%;
   height: auto;
@@ -280,7 +280,7 @@
   color: #535353;
   min-width: 0;
 }
-.column__tuOl {
+.column___7G994 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -292,7 +292,7 @@
   min-width: 0;
   padding: 0px 8px 8px;
 }
-.section___6Jwq {
+.section__fDsQe {
   display: grid;
   position: relative;
   align-content: center;
@@ -310,16 +310,16 @@
   padding: 30px 0;
   border: 1px solid var(--token-Xzi5OT07e2_1);
 }
-.section___6Jwq > * {
+.section__fDsQe > * {
   grid-column: 4;
 }
-.svg__vxnCt {
+.svg__hbsWw {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  height: 60px;
+  height: 40px;
 }
-.text__mmnng {
+.text__uKxE4 {
   position: relative;
   width: 100%;
   height: auto;

@@ -73,8 +73,8 @@ import sty from "./PlasmicMenu.module.css"; // plasmic-import: dw_LyFeoAAxt/css
 import Banner1SvgIcon from "./icons/PlasmicIcon__Banner1Svg"; // plasmic-import: -QJg3kyDQ7GD/icon
 import RiceSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__RiceSvgrepoCom2Svg"; // plasmic-import: LzGrREkdru70/icon
 import PancakesSvgrepoComsvgIcon from "./icons/PlasmicIcon__PancakesSvgrepoComsvg"; // plasmic-import: eVEwu8Je0Nmo/icon
-import SnacksvgIcon from "./icons/PlasmicIcon__Snacksvg"; // plasmic-import: t4JoKZu8A6xe/icon
-import GiftSvgrepoComsvgIcon from "./icons/PlasmicIcon__GiftSvgrepoComsvg"; // plasmic-import: RI8S1pXwZdq5/icon
+import SaltySnackSvgrepoComsvgIcon from "./icons/PlasmicIcon__SaltySnackSvgrepoComsvg"; // plasmic-import: a0gVmc8X-ip3/icon
+import GiftSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__GiftSvgrepoCom2Svg"; // plasmic-import: InRgjZjeTlVJ/icon
 import Home1SvgIcon from "./icons/PlasmicIcon__Home1Svg"; // plasmic-import: Ho0b78sFNGYF/icon
 import Riwayat01SvgIcon from "./icons/PlasmicIcon__Riwayat01Svg"; // plasmic-import: ORPaUTKWLEEB/icon
 import Inboxsvg2Icon from "./icons/PlasmicIcon__Inboxsvg2"; // plasmic-import: CUcHhZbW7M8B/icon
@@ -182,22 +182,22 @@ function PlasmicMenu__RenderFunc(props: {
               role={"img"}
             />
           </Stack__>
-          <div className={classNames(projectcss.all, sty.columns__th5Mk)}>
+          <div className={classNames(projectcss.all, sty.columns__g6TBp)}>
             <PlasmicLink__
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column__l8St5
+                sty.column__uSaUv
               )}
               component={Link}
               href={`/nasibox`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section___2Musa)}
+                className={classNames(projectcss.all, sty.section__m0PuH)}
               >
                 <RiceSvgrepoCom2SvgIcon
-                  className={classNames(projectcss.all, sty.svg__cZ4B5)}
+                  className={classNames(projectcss.all, sty.svg__deAUm)}
                   role={"img"}
                 />
 
@@ -205,7 +205,7 @@ function PlasmicMenu__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__fbPqJ
+                    sty.text__bklZd
                   )}
                 >
                   {"Nasi Box"}
@@ -216,17 +216,17 @@ function PlasmicMenu__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column__ymy27
+                sty.column__g693
               )}
               component={Link}
               href={`/kue-kering`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section___8CfIe)}
+                className={classNames(projectcss.all, sty.section__mzMfF)}
               >
                 <PancakesSvgrepoComsvgIcon
-                  className={classNames(projectcss.all, sty.svg__zPg59)}
+                  className={classNames(projectcss.all, sty.svg__xsIZr)}
                   role={"img"}
                 />
 
@@ -234,7 +234,7 @@ function PlasmicMenu__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__eVtU2
+                    sty.text___5R8Nw
                   )}
                 >
                   {"Kue Kering"}
@@ -245,17 +245,17 @@ function PlasmicMenu__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column__jhruk
+                sty.column___4FAaT
               )}
               component={Link}
               href={`/Snack-box`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section__lWktt)}
+                className={classNames(projectcss.all, sty.section__nLttc)}
               >
-                <SnacksvgIcon
-                  className={classNames(projectcss.all, sty.svg__zgj9Z)}
+                <SaltySnackSvgrepoComsvgIcon
+                  className={classNames(projectcss.all, sty.svg__odyiF)}
                   role={"img"}
                 />
 
@@ -263,19 +263,19 @@ function PlasmicMenu__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__u4Goj
+                    sty.text__pbrqn
                   )}
                 >
                   {"Snack Box"}
                 </div>
               </section>
             </PlasmicLink__>
-            <div className={classNames(projectcss.all, sty.column__tuOl)}>
+            <div className={classNames(projectcss.all, sty.column___7G994)}>
               <section
-                className={classNames(projectcss.all, sty.section___6Jwq)}
+                className={classNames(projectcss.all, sty.section__fDsQe)}
               >
-                <GiftSvgrepoComsvgIcon
-                  className={classNames(projectcss.all, sty.svg__vxnCt)}
+                <GiftSvgrepoCom2SvgIcon
+                  className={classNames(projectcss.all, sty.svg__hbsWw)}
                   role={"img"}
                 />
 
@@ -283,7 +283,7 @@ function PlasmicMenu__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__mmnng
+                    sty.text__uKxE4
                   )}
                 >
                   {"Hampers "}

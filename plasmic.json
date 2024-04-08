@@ -747,6 +747,16 @@
           "id": "oZXDjLwM_A1V",
           "name": "DatesvgIcon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Datesvg.tsx"
+        },
+        {
+          "id": "InRgjZjeTlVJ",
+          "name": "GiftSvgrepoCom2SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__GiftSvgrepoCom2Svg.tsx"
+        },
+        {
+          "id": "a0gVmc8X-ip3",
+          "name": "SaltySnackSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__SaltySnackSvgrepoComsvg.tsx"
         }
       ],
       "images": [

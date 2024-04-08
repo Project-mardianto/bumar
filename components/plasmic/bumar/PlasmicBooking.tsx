@@ -73,8 +73,8 @@ import sty from "./PlasmicBooking.module.css"; // plasmic-import: 2OvNSJ1PfNk1/c
 import Banner1SvgIcon from "./icons/PlasmicIcon__Banner1Svg"; // plasmic-import: -QJg3kyDQ7GD/icon
 import RiceSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__RiceSvgrepoCom2Svg"; // plasmic-import: LzGrREkdru70/icon
 import PancakesSvgrepoComsvgIcon from "./icons/PlasmicIcon__PancakesSvgrepoComsvg"; // plasmic-import: eVEwu8Je0Nmo/icon
-import SnacksvgIcon from "./icons/PlasmicIcon__Snacksvg"; // plasmic-import: t4JoKZu8A6xe/icon
-import GiftSvgrepoComsvgIcon from "./icons/PlasmicIcon__GiftSvgrepoComsvg"; // plasmic-import: RI8S1pXwZdq5/icon
+import SaltySnackSvgrepoComsvgIcon from "./icons/PlasmicIcon__SaltySnackSvgrepoComsvg"; // plasmic-import: a0gVmc8X-ip3/icon
+import GiftSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__GiftSvgrepoCom2Svg"; // plasmic-import: InRgjZjeTlVJ/icon
 import Home1SvgIcon from "./icons/PlasmicIcon__Home1Svg"; // plasmic-import: Ho0b78sFNGYF/icon
 import Riwayatsvg2Icon from "./icons/PlasmicIcon__Riwayatsvg2"; // plasmic-import: KZj1ZHPQ5Ekf/icon
 import Inboxsvg2Icon from "./icons/PlasmicIcon__Inboxsvg2"; // plasmic-import: CUcHhZbW7M8B/icon
@@ -254,7 +254,7 @@ function PlasmicBooking__RenderFunc(props: {
               <section
                 className={classNames(projectcss.all, sty.section__u7Lg0)}
               >
-                <SnacksvgIcon
+                <SaltySnackSvgrepoComsvgIcon
                   className={classNames(projectcss.all, sty.svg__p6VWb)}
                   role={"img"}
                 />
@@ -274,7 +274,7 @@ function PlasmicBooking__RenderFunc(props: {
               <section
                 className={classNames(projectcss.all, sty.section__aIksw)}
               >
-                <GiftSvgrepoComsvgIcon
+                <GiftSvgrepoCom2SvgIcon
                   className={classNames(projectcss.all, sty.svg__ncFGg)}
                   role={"img"}
                 />
