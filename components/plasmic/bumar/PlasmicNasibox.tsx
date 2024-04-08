@@ -218,9 +218,9 @@ function PlasmicNasibox__RenderFunc(props: {
               }
               loading={"lazy"}
               src={{
-                src: "/plasmic/bumar/images/whatsAppImage20240408At2148541Jpeg.jpg",
-                fullWidth: 1472,
-                fullHeight: 1358,
+                src: "/plasmic/bumar/images/unnamedjpg.jpg",
+                fullWidth: 500,
+                fullHeight: 501,
                 aspectRatio: undefined
               }}
             />

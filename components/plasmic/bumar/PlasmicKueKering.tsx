@@ -72,8 +72,6 @@ import projectcss from "../blank_website_mobile_first/plasmic.module.css"; // pl
 import sty from "./PlasmicKueKering.module.css"; // plasmic-import: yn3h3UAxym5Z/css
 
 import ArrowLeftSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoCom1Svg"; // plasmic-import: UroXee_yw1o3/icon
-import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: 9OcZEOS6XKco/icon
-import Icon38Icon from "./icons/PlasmicIcon__Icon38"; // plasmic-import: f30sqqHn8JbB/icon
 
 createPlasmicElementProxy;
 
@@ -90,8 +88,8 @@ export type PlasmicKueKering__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
   link?: Flex__<"a"> & Partial<LinkProps>;
-  svg?: Flex__<"svg">;
   img?: Flex__<typeof PlasmicImg__>;
+  button2?: Flex__<typeof Button2>;
 };
 
 export interface DefaultKueKeringProps {}
@@ -174,9 +172,7 @@ function PlasmicKueKering__RenderFunc(props: {
               platform={"nextjs"}
             >
               <ArrowLeftSvgrepoCom1SvgIcon
-                data-plasmic-name={"svg"}
-                data-plasmic-override={overrides.svg}
-                className={classNames(projectcss.all, sty.svg)}
+                className={classNames(projectcss.all, sty.svg__fi840)}
                 role={"img"}
               />
             </PlasmicLink__>
@@ -199,9 +195,9 @@ function PlasmicKueKering__RenderFunc(props: {
               }
               loading={"lazy"}
               src={{
-                src: "/plasmic/bumar/images/whatsAppImage20240408At214916Jpg.jpg",
-                fullWidth: 1075,
-                fullHeight: 860,
+                src: "/plasmic/bumar/images/_0475316001650443155Shutterstock1718969488Jpg.jpg",
+                fullWidth: 1200,
+                fullHeight: 675,
                 aspectRatio: undefined
               }}
             />
@@ -243,7 +239,7 @@ function PlasmicKueKering__RenderFunc(props: {
                         sty.text__rc3Us
                       )}
                     >
-                      {"Minimal pemesanan produk 5, 10 sampai dengan 12 produk"}
+                      {"Minimal pemesanan produk 3, 6 produk"}
                     </div>
                   </Stack__>
                 </Stack__>
@@ -251,134 +247,6 @@ function PlasmicKueKering__RenderFunc(props: {
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section__zmDt6)}>
-            <div className={classNames(projectcss.all, sty.columns__qbt7G)}>
-              <div className={classNames(projectcss.all, sty.column__sni23)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__rncBh
-                  )}
-                >
-                  {"Kue Nastar"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__wePnv)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ghYJz
-                  )}
-                >
-                  {"Rp.90.000"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__cdhCz)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2___9C7Z)}
-                  size={"compact"}
-                >
-                  {"Booking"}
-                </Button2>
-              </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns__okC4J)}>
-              <div className={classNames(projectcss.all, sty.column___8Rutr)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__l4Nvw
-                  )}
-                >
-                  {"Kue Sagu keju"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__xh5G)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__uvJki
-                  )}
-                >
-                  {"Rp.90.000"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__mButx)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2___6O2Bk)}
-                  size={"compact"}
-                >
-                  {"Booking"}
-                </Button2>
-              </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns__rMguV)}>
-              <div className={classNames(projectcss.all, sty.column__nwOoQ)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__zOZyc
-                  )}
-                >
-                  {"kue Lidah kucing"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column___0MuPs)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__djVEi
-                  )}
-                >
-                  {"Rp.90.000"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__m82As)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2___0KRec)}
-                  size={"compact"}
-                >
-                  {"Booking"}
-                </Button2>
-              </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns__qzJXi)}>
-              <div className={classNames(projectcss.all, sty.column___9AmVs)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__pM5Y
-                  )}
-                >
-                  {"Kue putri salju"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__jgWz0)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__x1Xg
-                  )}
-                >
-                  {"Rp.90.000"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__eEtuy)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2__ywmbW)}
-                  size={"compact"}
-                >
-                  {"Booking"}
-                </Button2>
-              </div>
-            </div>
             <div className={classNames(projectcss.all, sty.columns___7RUcJ)}>
               <div className={classNames(projectcss.all, sty.column__rie6L)}>
                 <div
@@ -388,7 +256,7 @@ function PlasmicKueKering__RenderFunc(props: {
                     sty.text__d0NN
                   )}
                 >
-                  {"kue kastengel keju"}
+                  {"Kue Nastar"}
                 </div>
               </div>
               <div className={classNames(projectcss.all, sty.column__uLkVn)}>
@@ -399,16 +267,104 @@ function PlasmicKueKering__RenderFunc(props: {
                     sty.text__iZtM6
                   )}
                 >
-                  {"Rp.120.000"}
+                  {"Rp.90.000"}
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.column__pXjGg)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2__p9WKv)}
-                  size={"compact"}
+            </div>
+            <div className={classNames(projectcss.all, sty.columns__np9LT)}>
+              <div className={classNames(projectcss.all, sty.column__xk4T)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gG66J
+                  )}
                 >
-                  {"Booking"}
-                </Button2>
+                  {"Kue Sagu keju"}
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__gcJ)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__n63Jk
+                  )}
+                >
+                  {"Rp.90.000"}
+                </div>
+              </div>
+            </div>
+            <div className={classNames(projectcss.all, sty.columns__x0ZAy)}>
+              <div className={classNames(projectcss.all, sty.column__a7Nc1)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yvrw7
+                  )}
+                >
+                  {"kue Lidah kucing"}
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__dG1Ub)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__lITa
+                  )}
+                >
+                  {"Rp.90.000"}
+                </div>
+              </div>
+            </div>
+            <div className={classNames(projectcss.all, sty.columns__hd1SU)}>
+              <div className={classNames(projectcss.all, sty.column__zXvGh)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__cksPj
+                  )}
+                >
+                  {"Kue putri salju"}
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__dgV9N)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ne0T
+                  )}
+                >
+                  {"Rp.90.000"}
+                </div>
+              </div>
+            </div>
+            <div className={classNames(projectcss.all, sty.columns__dIdI)}>
+              <div className={classNames(projectcss.all, sty.column__wHd2R)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__cj32Q
+                  )}
+                >
+                  {"Kue kastengel keju"}
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__nwOfH)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mC9Pm
+                  )}
+                >
+                  {"Rp.120.000"}
+                </div>
               </div>
             </div>
             <div className={classNames(projectcss.all, sty.columns__wOeBp)}>
@@ -434,15 +390,39 @@ function PlasmicKueKering__RenderFunc(props: {
                   {"Rp. 85.000"}
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.column__mVGsk)}>
-                <Button2
-                  className={classNames("__wab_instance", sty.button2__kwFpQ)}
-                  size={"compact"}
-                >
-                  {"Booking"}
-                </Button2>
-              </div>
             </div>
+            <section
+              className={classNames(projectcss.all, sty.section___06XsF)}
+            >
+              <Button2
+                data-plasmic-name={"button2"}
+                data-plasmic-override={overrides.button2}
+                className={classNames("__wab_instance", sty.button2)}
+                endIcon={
+                  <svg
+                    className={classNames(projectcss.all, sty.svg__fdLF)}
+                    role={"img"}
+                  />
+                }
+                startIcon={
+                  <svg
+                    className={classNames(projectcss.all, sty.svg__s9Lyr)}
+                    role={"img"}
+                  />
+                }
+                submitsForm={true}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__cUKcu
+                  )}
+                >
+                  {"Booking now ->"}
+                </div>
+              </Button2>
+            </section>
           </section>
         </div>
       </div>
@@ -451,11 +431,11 @@ function PlasmicKueKering__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "link", "svg", "img"],
+  root: ["root", "navbar", "link", "img", "button2"],
   navbar: ["navbar"],
-  link: ["link", "svg"],
-  svg: ["svg"],
-  img: ["img"]
+  link: ["link"],
+  img: ["img"],
+  button2: ["button2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -464,8 +444,8 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   link: "a";
-  svg: "svg";
   img: typeof PlasmicImg__;
+  button2: typeof Button2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -530,8 +510,8 @@ export const PlasmicKueKering = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     link: makeNodeComponent("link"),
-    svg: makeNodeComponent("svg"),
     img: makeNodeComponent("img"),
+    button2: makeNodeComponent("button2"),
 
     // Metadata about props expected for PlasmicKueKering
     internalVariantProps: PlasmicKueKering__VariantProps,

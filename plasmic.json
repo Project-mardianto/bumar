@@ -635,6 +635,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Booking"
+        },
+        {
+          "id": "k811IsW6KBen",
+          "name": "Hampers",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicHampers.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Hampers .tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicHampers.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Hampers "
         }
       ],
       "icons": [
@@ -949,6 +963,21 @@
           "id": "wdwIAyLWuDCe",
           "name": "WhatsApp Image 2024-04-08 at 21.49.16.jpg",
           "filePath": "../public/plasmic/bumar/images/whatsAppImage20240408At214916Jpg.jpg"
+        },
+        {
+          "id": "ktp6pCw9AgcG",
+          "name": "unnamed.jpg",
+          "filePath": "../public/plasmic/bumar/images/unnamedjpg.jpg"
+        },
+        {
+          "id": "5CI8FNEBKQtz",
+          "name": "20230204_112835-01.jpg",
+          "filePath": "../public/plasmic/bumar/images/_2023020411283501Jpg.jpg"
+        },
+        {
+          "id": "4d5Ck3pgY1zp",
+          "name": "20230204_112835-01.jpg 2",
+          "filePath": "../public/plasmic/bumar/images/_2023020411283501Jpg2.jpg"
         }
       ],
       "indirect": false,

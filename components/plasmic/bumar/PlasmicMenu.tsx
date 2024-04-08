@@ -270,7 +270,16 @@ function PlasmicMenu__RenderFunc(props: {
                 </div>
               </section>
             </PlasmicLink__>
-            <div className={classNames(projectcss.all, sty.column___7G994)}>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column___7G994
+              )}
+              component={Link}
+              href={`/Hampers `}
+              platform={"nextjs"}
+            >
               <section
                 className={classNames(projectcss.all, sty.section__fDsQe)}
               >
@@ -289,7 +298,7 @@ function PlasmicMenu__RenderFunc(props: {
                   {"Hampers "}
                 </div>
               </section>
-            </div>
+            </PlasmicLink__>
           </div>
           <div className={classNames(projectcss.all, sty.columns__hg9Rl)}>
             <PlasmicLink__
