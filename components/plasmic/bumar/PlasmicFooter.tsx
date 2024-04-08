@@ -163,7 +163,7 @@ function PlasmicFooter__RenderFunc(props: {
       <PlasmicLink__
         className={classNames(projectcss.all, projectcss.a, sty.column__dAlX5)}
         component={Link}
-        href={`/new-page`}
+        href={`/menu`}
         platform={"nextjs"}
       >
         <Riwayatsvg2Icon

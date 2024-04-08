@@ -191,7 +191,7 @@ function PlasmicNasibox__RenderFunc(props: {
               data-plasmic-override={overrides.link}
               className={classNames(projectcss.all, projectcss.a, sty.link)}
               component={Link}
-              href={`/new-page`}
+              href={`/menu`}
               platform={"nextjs"}
             >
               <ArrowLeftSvgrepoCom1SvgIcon

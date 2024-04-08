@@ -92,6 +92,7 @@ export type PlasmicMenu__OverridesType = {
   root?: Flex__<"div">;
   footer?: Flex__<typeof Footer>;
   navbar?: Flex__<typeof Navbar>;
+  freeBox?: Flex__<"div">;
   banner?: Flex__<"svg">;
   columns?: Flex__<"div">;
 };
@@ -174,8 +175,10 @@ function PlasmicMenu__RenderFunc(props: {
 
           <Stack__
             as={"div"}
+            data-plasmic-name={"freeBox"}
+            data-plasmic-override={overrides.freeBox}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox___4Tm49)}
+            className={classNames(projectcss.all, sty.freeBox)}
           >
             <Banner1SvgIcon
               data-plasmic-name={"banner"}
@@ -183,31 +186,6 @@ function PlasmicMenu__RenderFunc(props: {
               className={classNames(projectcss.all, sty.banner)}
               role={"img"}
             />
-
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__mbcMo)}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__o1PyS
-                )}
-              >
-                {"Harga paket box"}
-              </div>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__zgVtk
-                )}
-              >
-                {"Minimal pemesanan produk 10 box sampai dengan 500 Box"}
-              </div>
-            </Stack__>
           </Stack__>
           <div
             data-plasmic-name={"columns"}
@@ -243,7 +221,16 @@ function PlasmicMenu__RenderFunc(props: {
                 </div>
               </section>
             </PlasmicLink__>
-            <div className={classNames(projectcss.all, sty.column__ymy27)}>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column__ymy27
+              )}
+              component={Link}
+              href={`/kue-kering`}
+              platform={"nextjs"}
+            >
               <section
                 className={classNames(projectcss.all, sty.section___8CfIe)}
               >
@@ -262,8 +249,17 @@ function PlasmicMenu__RenderFunc(props: {
                   {"Kue Kering"}
                 </div>
               </section>
-            </div>
-            <div className={classNames(projectcss.all, sty.column__jhruk)}>
+            </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column__jhruk
+              )}
+              component={Link}
+              href={`/Snack-box`}
+              platform={"nextjs"}
+            >
               <section
                 className={classNames(projectcss.all, sty.section__lWktt)}
               >
@@ -282,7 +278,7 @@ function PlasmicMenu__RenderFunc(props: {
                   {"Snack Box"}
                 </div>
               </section>
-            </div>
+            </PlasmicLink__>
             <div className={classNames(projectcss.all, sty.column__tuOl)}>
               <section
                 className={classNames(projectcss.all, sty.section___6Jwq)}
@@ -311,9 +307,10 @@ function PlasmicMenu__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "footer", "navbar", "banner", "columns"],
+  root: ["root", "footer", "navbar", "freeBox", "banner", "columns"],
   footer: ["footer"],
   navbar: ["navbar"],
+  freeBox: ["freeBox", "banner"],
   banner: ["banner"],
   columns: ["columns"]
 } as const;
@@ -324,6 +321,7 @@ type NodeDefaultElementType = {
   root: "div";
   footer: typeof Footer;
   navbar: typeof Navbar;
+  freeBox: "div";
   banner: "svg";
   columns: "div";
 };
@@ -390,6 +388,7 @@ export const PlasmicMenu = Object.assign(
     // Helper components rendering sub-elements
     footer: makeNodeComponent("footer"),
     navbar: makeNodeComponent("navbar"),
+    freeBox: makeNodeComponent("freeBox"),
     banner: makeNodeComponent("banner"),
     columns: makeNodeComponent("columns"),
 
