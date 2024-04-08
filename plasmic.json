@@ -757,6 +757,11 @@
           "id": "a0gVmc8X-ip3",
           "name": "SaltySnackSvgrepoComsvgIcon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__SaltySnackSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "HhYxLMmDPRaI",
+          "name": "G1431SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__G1431Svg.tsx"
         }
       ],
       "images": [
@@ -929,6 +934,21 @@
           "id": "GJY-AtsShWM6",
           "name": "047531600_1650443155-shutterstock_1718969488.jpg",
           "filePath": "../public/plasmic/bumar/images/_0475316001650443155Shutterstock1718969488Jpg.jpg"
+        },
+        {
+          "id": "9RGaiAPqUTqd",
+          "name": "WhatsApp Image 2024-04-08 at 21.48.54 (1).jpeg",
+          "filePath": "../public/plasmic/bumar/images/whatsAppImage20240408At2148541Jpeg.jpg"
+        },
+        {
+          "id": "WId_XkqC82Kf",
+          "name": "WhatsApp Image 2024-04-08 at 21.49.16.jpeg",
+          "filePath": "../public/plasmic/bumar/images/whatsAppImage20240408At214916Jpeg.jpg"
+        },
+        {
+          "id": "wdwIAyLWuDCe",
+          "name": "WhatsApp Image 2024-04-08 at 21.49.16.jpg",
+          "filePath": "../public/plasmic/bumar/images/whatsAppImage20240408At214916Jpg.jpg"
         }
       ],
       "indirect": false,

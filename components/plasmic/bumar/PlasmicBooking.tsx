@@ -71,7 +71,7 @@ import projectcss from "../blank_website_mobile_first/plasmic.module.css"; // pl
 import sty from "./PlasmicBooking.module.css"; // plasmic-import: 2OvNSJ1PfNk1/css
 
 import Banner1SvgIcon from "./icons/PlasmicIcon__Banner1Svg"; // plasmic-import: -QJg3kyDQ7GD/icon
-import RiceSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__RiceSvgrepoCom2Svg"; // plasmic-import: LzGrREkdru70/icon
+import G1431SvgIcon from "./icons/PlasmicIcon__G1431Svg"; // plasmic-import: HhYxLMmDPRaI/icon
 import PancakesSvgrepoComsvgIcon from "./icons/PlasmicIcon__PancakesSvgrepoComsvg"; // plasmic-import: eVEwu8Je0Nmo/icon
 import SaltySnackSvgrepoComsvgIcon from "./icons/PlasmicIcon__SaltySnackSvgrepoComsvg"; // plasmic-import: a0gVmc8X-ip3/icon
 import GiftSvgrepoCom2SvgIcon from "./icons/PlasmicIcon__GiftSvgrepoCom2Svg"; // plasmic-import: InRgjZjeTlVJ/icon
@@ -196,7 +196,7 @@ function PlasmicBooking__RenderFunc(props: {
               <section
                 className={classNames(projectcss.all, sty.section___2Q4W)}
               >
-                <RiceSvgrepoCom2SvgIcon
+                <G1431SvgIcon
                   className={classNames(projectcss.all, sty.svg__o9UiP)}
                   role={"img"}
                 />

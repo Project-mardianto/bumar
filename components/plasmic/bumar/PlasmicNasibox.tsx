@@ -218,9 +218,9 @@ function PlasmicNasibox__RenderFunc(props: {
               }
               loading={"lazy"}
               src={{
-                src: "/plasmic/bumar/images/femaleChefWithGloveChoppingSaladjpg.jpg",
-                fullWidth: 6048,
-                fullHeight: 4024,
+                src: "/plasmic/bumar/images/whatsAppImage20240408At2148541Jpeg.jpg",
+                fullWidth: 1472,
+                fullHeight: 1358,
                 aspectRatio: undefined
               }}
             />

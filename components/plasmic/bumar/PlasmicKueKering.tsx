@@ -199,9 +199,9 @@ function PlasmicKueKering__RenderFunc(props: {
               }
               loading={"lazy"}
               src={{
-                src: "/plasmic/bumar/images/_0475316001650443155Shutterstock1718969488Jpg.jpg",
-                fullWidth: 1200,
-                fullHeight: 675,
+                src: "/plasmic/bumar/images/whatsAppImage20240408At214916Jpg.jpg",
+                fullWidth: 1075,
+                fullHeight: 860,
                 aspectRatio: undefined
               }}
             />
