@@ -5,11 +5,11 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export type Listsvg2IconProps = React.ComponentProps<"svg"> & {
+export type Home1SvgIconProps = React.ComponentProps<"svg"> & {
   title?: string;
 };
 
-export function Listsvg2Icon(props: Listsvg2IconProps) {
+export function Home1SvgIcon(props: Home1SvgIconProps) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -25,24 +25,25 @@ export function Listsvg2Icon(props: Listsvg2IconProps) {
 
       <path
         d={
-          "M21 6.211C21 4.441 19.55 3 17.766 3H6.234a3.231 3.231 0 00-3.222 2.935L3 17.79C3 19.56 4.45 21 6.234 21h11.532a3.231 3.231 0 003.222-2.935L21 6.21z"
+          "M3.182 15.073H5v3.787a3 3 0 003 3h8.583a3 3 0 003-3v-3.787h1.235a1.682 1.682 0 001.17-2.888L13.393 3.85a2 2 0 00-2.784 0L2.01 12.185a1.682 1.682 0 001.17 2.888z"
         }
-        stroke={"currentColor"}
+        stroke={"#9CA4AC"}
         strokeWidth={"1.2"}
-        strokeMiterlimit={"10"}
       ></path>
 
       <path
-        d={"M16.5 8.25h-9m9 3.75h-9m9 3.75h-9"}
-        stroke={"currentColor"}
+        d={
+          "M10.93 17.725h2.608a1.4 1.4 0 011.368 1.103l.667 3.072H8.895l.666-3.072a1.4 1.4 0 011.369-1.103z"
+        }
+        fill={"#fff"}
+        stroke={"#9CA4AC"}
         strokeWidth={"1.2"}
-        strokeMiterlimit={"10"}
-        strokeLinecap={"round"}
-        strokeLinejoin={"round"}
       ></path>
+
+      <circle cx={"11.966"} cy={"9.175"} r={"2.3"} fill={"#9CA4AC"}></circle>
     </svg>
   );
 }
 
-export default Listsvg2Icon;
+export default Home1SvgIcon;
 /* prettier-ignore-end */

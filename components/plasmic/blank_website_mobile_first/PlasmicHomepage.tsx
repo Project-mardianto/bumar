@@ -63,7 +63,6 @@ import Navbar from "../../Navbar"; // plasmic-import: vUqIgiqOfSKO/component
 import Button2 from "../../Button2"; // plasmic-import: L9J39x6OJe4i/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
-import Footer from "../../Footer"; // plasmic-import: ioaSz0ukZyBm/component
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 
 import { useScreenVariants as useScreenVariants_4KrsLKoCkec } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 4krsLKo_Ckec/globalVariant
@@ -76,6 +75,10 @@ import projectcss from "./plasmic.module.css"; // plasmic-import: r5Q4Z1cxFkCcTJ
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: cTtvcxMxKXL7/css
 
 import Banner1SvgIcon from "../bumar/icons/PlasmicIcon__Banner1Svg"; // plasmic-import: -QJg3kyDQ7GD/icon
+import HomesvgIcon from "../bumar/icons/PlasmicIcon__Homesvg"; // plasmic-import: 8VGTKoro3YCr/icon
+import Riwayatsvg2Icon from "../bumar/icons/PlasmicIcon__Riwayatsvg2"; // plasmic-import: KZj1ZHPQ5Ekf/icon
+import Inboxsvg2Icon from "../bumar/icons/PlasmicIcon__Inboxsvg2"; // plasmic-import: CUcHhZbW7M8B/icon
+import Listsvg4Icon from "../bumar/icons/PlasmicIcon__Listsvg4"; // plasmic-import: 8pp5pY4_QvML/icon
 
 createPlasmicElementProxy;
 
@@ -93,7 +96,7 @@ export type PlasmicHomepage__OverridesType = {
   banner?: Flex__<"svg">;
   button2?: Flex__<typeof Button2>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
-  footer?: Flex__<typeof Footer>;
+  columns?: Flex__<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -585,12 +588,6 @@ function PlasmicHomepage__RenderFunc(props: {
               );
             })()}
           </section>
-          <Footer
-            data-plasmic-name={"footer"}
-            data-plasmic-override={overrides.footer}
-            className={classNames("__wab_instance", sty.footer)}
-          />
-
           {(
             hasVariant(globalVariants, "screen", "desktopOnly") ? true : false
           ) ? (
@@ -598,6 +595,112 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames("__wab_instance", sty.navbar___09PVy)}
             />
           ) : null}
+          <div
+            data-plasmic-name={"columns"}
+            data-plasmic-override={overrides.columns}
+            className={classNames(projectcss.all, sty.columns)}
+          >
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column__fE1H
+              )}
+              component={Link}
+              href={`/`}
+              platform={"nextjs"}
+            >
+              <HomesvgIcon
+                className={classNames(projectcss.all, sty.svg___8OPw7)}
+                role={"img"}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__x9QG8
+                )}
+              >
+                {"Beranda"}
+              </div>
+            </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column__pYaCn
+              )}
+              component={Link}
+              href={`/menu`}
+              platform={"nextjs"}
+            >
+              <Riwayatsvg2Icon
+                className={classNames(projectcss.all, sty.svg__oRszc)}
+                role={"img"}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___49G1
+                )}
+              >
+                {"Menu"}
+              </div>
+            </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column__toxdi
+              )}
+              component={Link}
+              href={`/Chat`}
+              platform={"nextjs"}
+            >
+              <Inboxsvg2Icon
+                className={classNames(projectcss.all, sty.svg__o2ONa)}
+                role={"img"}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___1KhBg
+                )}
+              >
+                {"Chat"}
+              </div>
+            </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.column___6W5K
+              )}
+              component={Link}
+              href={`/Booking`}
+              platform={"nextjs"}
+            >
+              <Listsvg4Icon
+                className={classNames(projectcss.all, sty.svg___5ZMq)}
+                role={"img"}
+              />
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__isvmk
+                )}
+              >
+                {"Booking"}
+              </div>
+            </PlasmicLink__>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -605,11 +708,11 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "banner", "button2", "sliderCarousel", "footer"],
+  root: ["root", "banner", "button2", "sliderCarousel", "columns"],
   banner: ["banner"],
   button2: ["button2"],
   sliderCarousel: ["sliderCarousel"],
-  footer: ["footer"]
+  columns: ["columns"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -619,7 +722,7 @@ type NodeDefaultElementType = {
   banner: "svg";
   button2: typeof Button2;
   sliderCarousel: typeof SliderWrapper;
-  footer: typeof Footer;
+  columns: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -685,7 +788,7 @@ export const PlasmicHomepage = Object.assign(
     banner: makeNodeComponent("banner"),
     button2: makeNodeComponent("button2"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
-    footer: makeNodeComponent("footer"),
+    columns: makeNodeComponent("columns"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

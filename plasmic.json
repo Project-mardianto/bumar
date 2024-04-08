@@ -526,19 +526,6 @@
           "componentType": "component"
         },
         {
-          "id": "ioaSz0ukZyBm",
-          "name": "Footer",
-          "type": "managed",
-          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
-          "renderModuleFilePath": "plasmic/bumar/PlasmicFooter.tsx",
-          "importSpec": {
-            "modulePath": "Footer.tsx"
-          },
-          "cssFilePath": "plasmic/bumar/PlasmicFooter.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "gtns0qBMJgSa",
           "name": "Button",
           "type": "managed",
@@ -620,6 +607,34 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Snack-box"
+        },
+        {
+          "id": "dTi0r2lLSQ3-",
+          "name": "Chat",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicChat.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Chat.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicChat.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Chat"
+        },
+        {
+          "id": "2OvNSJ1PfNk1",
+          "name": "Booking",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicBooking.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Booking.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicBooking.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Booking"
         }
       ],
       "icons": [
@@ -637,11 +652,6 @@
           "id": "rx8PB0YDgyof",
           "name": "IconIcon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Icon.tsx"
-        },
-        {
-          "id": "Mbxg8OVFAW6t",
-          "name": "HomesvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg.tsx"
         },
         {
           "id": "B3pJBuWdbtan",
@@ -674,41 +684,6 @@
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__PancakesSvgrepoComsvg.tsx"
         },
         {
-          "id": "r2rr67QbVyud",
-          "name": "Homesvg2Icon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg2.tsx"
-        },
-        {
-          "id": "dHOhAFmM36nv",
-          "name": "InboxsvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Inboxsvg.tsx"
-        },
-        {
-          "id": "kxSzQOpHmA9l",
-          "name": "RiwayatsvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Riwayatsvg.tsx"
-        },
-        {
-          "id": "nvkWu1B64eFp",
-          "name": "Homesvg3Icon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg3.tsx"
-        },
-        {
-          "id": "jBe7GDGMWm_b",
-          "name": "ListsvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg.tsx"
-        },
-        {
-          "id": "XkJ_DipF_c4f",
-          "name": "Listsvg2Icon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg2.tsx"
-        },
-        {
-          "id": "UU1KZcgINH3p",
-          "name": "Listsvg3Icon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Listsvg3.tsx"
-        },
-        {
           "id": "KZj1ZHPQ5Ekf",
           "name": "Riwayatsvg2Icon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Riwayatsvg2.tsx"
@@ -717,21 +692,6 @@
           "id": "CUcHhZbW7M8B",
           "name": "Inboxsvg2Icon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Inboxsvg2.tsx"
-        },
-        {
-          "id": "0EqDJPl0j-Q9",
-          "name": "RiceSvgrepoComsvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__RiceSvgrepoComsvg.tsx"
-        },
-        {
-          "id": "EfYOMIhzkLwa",
-          "name": "AppointmentsSvgrepoCom1SvgIcon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__AppointmentsSvgrepoCom1Svg.tsx"
-        },
-        {
-          "id": "awy0samUx8LK",
-          "name": "GiftSvgrepoComsvg2Icon",
-          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__GiftSvgrepoComsvg2.tsx"
         },
         {
           "id": "8pp5pY4_QvML",
@@ -757,6 +717,36 @@
           "id": "UroXee_yw1o3",
           "name": "ArrowLeftSvgrepoCom1SvgIcon",
           "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__ArrowLeftSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "PsKbbUtxgSh9",
+          "name": "Homesvg4Icon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg4.tsx"
+        },
+        {
+          "id": "8VGTKoro3YCr",
+          "name": "HomesvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Homesvg.tsx"
+        },
+        {
+          "id": "Ho0b78sFNGYF",
+          "name": "Home1SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Home1Svg.tsx"
+        },
+        {
+          "id": "ORPaUTKWLEEB",
+          "name": "Riwayat01SvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Riwayat01Svg.tsx"
+        },
+        {
+          "id": "5v1xQgfabsmO",
+          "name": "InboxsvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Inboxsvg.tsx"
+        },
+        {
+          "id": "oZXDjLwM_A1V",
+          "name": "DatesvgIcon",
+          "moduleFilePath": "plasmic/bumar/icons/PlasmicIcon__Datesvg.tsx"
         }
       ],
       "images": [
