@@ -2449,15 +2449,18 @@ function PlasmicNasibox__RenderFunc(props: {
                     <Stack__
                       as={"div"}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.columns__tGpnN)}
+                      className={classNames(projectcss.all, sty.columns__mniwv)}
                     >
                       <div
-                        className={classNames(projectcss.all, sty.column__gkvX)}
+                        className={classNames(
+                          projectcss.all,
+                          sty.column___5EsWf
+                        )}
                       >
                         <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__litam
+                            sty.freeBox__ujxn7
                           )}
                         >
                           <Stack__
@@ -2465,7 +2468,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__qWl8
+                              sty.freeBox__yLu1D
                             )}
                           >
                             <Stack__
@@ -2473,14 +2476,14 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__n3ZnM
+                                sty.freeBox__pbVOy
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text__dzOUi
+                                  sty.text__c0C3L
                                 )}
                               >
                                 {"Tumpeng monas A"}
@@ -2490,7 +2493,7 @@ function PlasmicNasibox__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text__ogXvR
+                                sty.text___0UH8Z
                               )}
                             >
                               {"Rp. 1.500.000"}
@@ -2498,13 +2501,13 @@ function PlasmicNasibox__RenderFunc(props: {
                             <Button2
                               className={classNames(
                                 "__wab_instance",
-                                sty.button2___5KEmj
+                                sty.button2__iX
                               )}
                               endIcon={
                                 <Icon38Icon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__kJ0Q
+                                    sty.svg__fDphx
                                   )}
                                   role={"img"}
                                 />
@@ -2513,7 +2516,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <ChecksvgIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__bgrpQ
+                                    sty.svg__mvgB2
                                   )}
                                   role={"img"}
                                 />
@@ -2524,7 +2527,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text___5Hx8X
+                                  sty.text__xMefr
                                 )}
                               >
                                 {"Booking"}
@@ -2534,7 +2537,7 @@ function PlasmicNasibox__RenderFunc(props: {
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__zal0C
+                              sty.freeBox__s49Fz
                             )}
                           />
 
@@ -2543,7 +2546,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__yLzfO
+                              sty.freeBox__u6QxA
                             )}
                           >
                             <Stack__
@@ -2551,19 +2554,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___5Uvw
+                                sty.freeBox__rlwGw
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__wc1Vl
+                                  sty.freeBox__ijXub
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__aepaq
+                                    sty.svg__xo4TD
                                   )}
                                   role={"img"}
                                 />
@@ -2572,13 +2575,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__zbYR
+                                    sty.freeBox__hoxF4
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__cLdrf
+                                      sty.svg__wkfM
                                     )}
                                     role={"img"}
                                   />
@@ -2589,7 +2592,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__fGkFa
+                                  sty.freeBox__sBpt5
                                 )}
                               >
                                 {false ? (
@@ -2597,7 +2600,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__y8Rh
+                                      sty.text__w9Rzj
                                     )}
                                   >
                                     {"Label"}
@@ -2607,7 +2610,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__heaUh
+                                    sty.text___5FbKs
                                   )}
                                 >
                                   {"30 Orang"}
@@ -2619,19 +2622,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__ndz3V
+                                sty.freeBox__tgM50
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__oMa46
+                                  sty.freeBox__uc0N
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__zkF7B
+                                    sty.svg__pLi9V
                                   )}
                                   role={"img"}
                                 />
@@ -2640,13 +2643,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__gqLbd
+                                    sty.freeBox__uAaCk
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__uRxYk
+                                      sty.svg__o8B6
                                     )}
                                     role={"img"}
                                   />
@@ -2657,7 +2660,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___7MScq
+                                  sty.freeBox__rzsdm
                                 )}
                               >
                                 {false ? (
@@ -2665,7 +2668,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__wr73J
+                                      sty.text__gvNXl
                                     )}
                                   >
                                     {"Label"}
@@ -2675,10 +2678,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text___93WS0
+                                    sty.text___8A4Db
                                   )}
                                 >
-                                  {"Nasi kuning "}
+                                  {"Nasi kuning"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -2687,19 +2690,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__ebVfX
+                                sty.freeBox__jVmqQ
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__ylGA
+                                  sty.freeBox___4Hue6
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___3Bku
+                                    sty.svg__irxcK
                                   )}
                                   role={"img"}
                                 />
@@ -2708,13 +2711,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__mxAqd
+                                    sty.freeBox___5RrUj
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__biwih
+                                      sty.svg__z6TK
                                     )}
                                     role={"img"}
                                   />
@@ -2725,7 +2728,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__mnOv
+                                  sty.freeBox___4SAaV
                                 )}
                               >
                                 {false ? (
@@ -2733,7 +2736,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__ct5Cr
+                                      sty.text__a88Aa
                                     )}
                                   >
                                     {"Label"}
@@ -2743,7 +2746,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__du9Zu
+                                    sty.text__ajRNe
                                   )}
                                 >
                                   {"Ayam goreng"}
@@ -2755,19 +2758,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___0GdxY
+                                sty.freeBox__aa43U
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__o7Jyu
+                                  sty.freeBox__gBfKa
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__cXHc
+                                    sty.svg__x4I
                                   )}
                                   role={"img"}
                                 />
@@ -2776,13 +2779,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__cu2AM
+                                    sty.freeBox__qzhFa
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__q33Ou
+                                      sty.svg__i4Ys5
                                     )}
                                     role={"img"}
                                   />
@@ -2793,7 +2796,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__sCdhy
+                                  sty.freeBox__h1S0F
                                 )}
                               >
                                 {false ? (
@@ -2801,7 +2804,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__p2Eqr
+                                      sty.text__hq09C
                                     )}
                                   >
                                     {"Label"}
@@ -2811,7 +2814,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__auvA
+                                    sty.text__jJ2Vf
                                   )}
                                 >
                                   {"Tempe orek"}
@@ -2823,19 +2826,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__d31Wb
+                                sty.freeBox__iZrkL
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__jFUq
+                                  sty.freeBox__gNeYa
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__rkfO
+                                    sty.svg__pXi8W
                                   )}
                                   role={"img"}
                                 />
@@ -2844,13 +2847,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__hnMxJ
+                                    sty.freeBox__siAb
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__iZyr9
+                                      sty.svg__grwx
                                     )}
                                     role={"img"}
                                   />
@@ -2861,7 +2864,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__fJoba
+                                  sty.freeBox__lwevk
                                 )}
                               >
                                 {false ? (
@@ -2869,7 +2872,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__bkku9
+                                      sty.text__iQaUo
                                     )}
                                   >
                                     {"Label"}
@@ -2879,7 +2882,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__wlotD
+                                    sty.text__w7MHd
                                   )}
                                 >
                                   {"Telur balado"}
@@ -2891,19 +2894,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__swhSh
+                                sty.freeBox__asAM
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__lqEdc
+                                  sty.freeBox__my1PE
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__o1MWh
+                                    sty.svg__g7BgJ
                                   )}
                                   role={"img"}
                                 />
@@ -2912,13 +2915,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__bOaY
+                                    sty.freeBox__fnNs1
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__j320W
+                                      sty.svg__yK5Hi
                                     )}
                                     role={"img"}
                                   />
@@ -2929,7 +2932,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__u415U
+                                  sty.freeBox__nzPqx
                                 )}
                               >
                                 {false ? (
@@ -2937,7 +2940,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__nytKd
+                                      sty.text__bBxeq
                                     )}
                                   >
                                     {"Label"}
@@ -2947,7 +2950,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__dPsli
+                                    sty.text___9TTV
                                   )}
                                 >
                                   {"Lalapan"}
@@ -2959,19 +2962,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__dPc70
+                                sty.freeBox__aqNkb
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__aUp2M
+                                  sty.freeBox___2QA84
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__xWeQw
+                                    sty.svg__iwC5
                                   )}
                                   role={"img"}
                                 />
@@ -2980,13 +2983,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox___4OtfS
+                                    sty.freeBox___9YZEp
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg___9ZWvw
+                                      sty.svg__k7Lig
                                     )}
                                     role={"img"}
                                   />
@@ -2997,7 +3000,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__onrQh
+                                  sty.freeBox__eCqqu
                                 )}
                               >
                                 {false ? (
@@ -3005,7 +3008,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__q0DmC
+                                      sty.text__phZ6
                                     )}
                                   >
                                     {"Label"}
@@ -3015,7 +3018,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__iFuc
+                                    sty.text__s33Ke
                                   )}
                                 >
                                   {"Bihun"}
@@ -3027,19 +3030,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__gm178
+                                sty.freeBox__wnKTf
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__cacx
+                                  sty.freeBox__piqzv
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__pV07Q
+                                    sty.svg__lv8Xj
                                   )}
                                   role={"img"}
                                 />
@@ -3048,13 +3051,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__oCfgV
+                                    sty.freeBox__dDvUf
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__qqElB
+                                      sty.svg__jmvCl
                                     )}
                                     role={"img"}
                                   />
@@ -3065,7 +3068,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__tZayF
+                                  sty.freeBox__lWlTo
                                 )}
                               >
                                 {false ? (
@@ -3073,7 +3076,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text___96Mmo
+                                      sty.text__r6Wuy
                                     )}
                                   >
                                     {"Label"}
@@ -3083,7 +3086,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__yrwRo
+                                    sty.text___8AsqA
                                   )}
                                 >
                                   {"Kerupuk"}
@@ -3095,19 +3098,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__lF55
+                                sty.freeBox__vp22T
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__u3AZ7
+                                  sty.freeBox___6QoZe
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__vYOn
+                                    sty.svg__ilZfC
                                   )}
                                   role={"img"}
                                 />
@@ -3116,13 +3119,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__fYCiL
+                                    sty.freeBox__ojAm1
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__qK8Xh
+                                      sty.svg__l9HFl
                                     )}
                                     role={"img"}
                                   />
@@ -3133,7 +3136,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__dTyg
+                                  sty.freeBox__uaxYp
                                 )}
                               >
                                 {false ? (
@@ -3141,7 +3144,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__iP2Wi
+                                      sty.text__omegG
                                     )}
                                   >
                                     {"Label"}
@@ -3151,10 +3154,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__qxJqd
+                                    sty.text__cxMPr
                                   )}
                                 >
-                                  {"Buah "}
+                                  {"Buah"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -3163,19 +3166,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__aDh
+                                sty.freeBox__yOWnC
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__quPhs
+                                  sty.freeBox__vJdSg
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__gNuBx
+                                    sty.svg__hKjr
                                   )}
                                   role={"img"}
                                 />
@@ -3184,13 +3187,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__sqIpl
+                                    sty.freeBox__x5VMq
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__jjTMq
+                                      sty.svg__aVg61
                                     )}
                                     role={"img"}
                                   />
@@ -3201,7 +3204,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__p6X7P
+                                  sty.freeBox__czIGr
                                 )}
                               >
                                 {false ? (
@@ -3209,7 +3212,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__jGGx
+                                      sty.text__txssP
                                     )}
                                   >
                                     {"Label"}
@@ -3219,10 +3222,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__tjEbd
+                                    sty.text__iJiLe
                                   )}
                                 >
-                                  {"Air mineral "}
+                                  {"Air mineral"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -3231,7 +3234,7 @@ function PlasmicNasibox__RenderFunc(props: {
                         <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__t2Wse
+                            sty.freeBox___0I6TE
                           )}
                         >
                           <Stack__
@@ -3239,7 +3242,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__rxSo
+                              sty.freeBox___1Xnl
                             )}
                           >
                             <Stack__
@@ -3247,14 +3250,14 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__dsiln
+                                sty.freeBox___98Vts
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text___6IiXj
+                                  sty.text___5WhQk
                                 )}
                               >
                                 {"Tumpeng monas B"}
@@ -3264,21 +3267,21 @@ function PlasmicNasibox__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text__bNjh
+                                sty.text__hozo2
                               )}
                             >
-                              {"Rp. 750.000"}
+                              {"Rp.750.000"}
                             </div>
                             <Button2
                               className={classNames(
                                 "__wab_instance",
-                                sty.button2__rymPm
+                                sty.button2__r9YPp
                               )}
                               endIcon={
                                 <Icon38Icon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___7VDiO
+                                    sty.svg__wOlDf
                                   )}
                                   role={"img"}
                                 />
@@ -3287,7 +3290,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <ChecksvgIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__rbw71
+                                    sty.svg__kd9GA
                                   )}
                                   role={"img"}
                                 />
@@ -3298,7 +3301,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text__f4TnL
+                                  sty.text__hnNsb
                                 )}
                               >
                                 {"Booking"}
@@ -3308,7 +3311,7 @@ function PlasmicNasibox__RenderFunc(props: {
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__aLvV0
+                              sty.freeBox__y8MbT
                             )}
                           />
 
@@ -3317,7 +3320,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__aVc2C
+                              sty.freeBox__f26BK
                             )}
                           >
                             <Stack__
@@ -3325,19 +3328,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__gmt5B
+                                sty.freeBox___23I1N
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__kr5D
+                                  sty.freeBox__q0X6A
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__eDbTi
+                                    sty.svg__km8Mn
                                   )}
                                   role={"img"}
                                 />
@@ -3346,13 +3349,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox___8BcPs
+                                    sty.freeBox__tuv87
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__p5WYt
+                                      sty.svg__qoldz
                                     )}
                                     role={"img"}
                                   />
@@ -3363,7 +3366,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___7YfKp
+                                  sty.freeBox__eI79N
                                 )}
                               >
                                 {false ? (
@@ -3371,7 +3374,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text___8TVg
+                                      sty.text__yxHDp
                                     )}
                                   >
                                     {"Label"}
@@ -3381,7 +3384,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text___2I837
+                                    sty.text__p28Ab
                                   )}
                                 >
                                   {"20 Orang"}
@@ -3393,19 +3396,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___3D95J
+                                sty.freeBox___0GFkn
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__xdeYw
+                                  sty.freeBox__dIr4I
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__xzSd9
+                                    sty.svg___7Ppga
                                   )}
                                   role={"img"}
                                 />
@@ -3414,13 +3417,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__lVaG
+                                    sty.freeBox__bRwbj
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__trGm4
+                                      sty.svg___7N8LQ
                                     )}
                                     role={"img"}
                                   />
@@ -3431,7 +3434,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__ahvj0
+                                  sty.freeBox__vTEu6
                                 )}
                               >
                                 {false ? (
@@ -3439,7 +3442,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__eoZKu
+                                      sty.text__vg8I
                                     )}
                                   >
                                     {"Label"}
@@ -3449,10 +3452,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__pxqb5
+                                    sty.text__g37HR
                                   )}
                                 >
-                                  {"Nasi kuning "}
+                                  {"Nasi kuning"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -3461,19 +3464,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__uMwEe
+                                sty.freeBox__ojdnc
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__sHdQy
+                                  sty.freeBox__fDoFe
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__fjSb1
+                                    sty.svg__l7HMh
                                   )}
                                   role={"img"}
                                 />
@@ -3482,13 +3485,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__zc7
+                                    sty.freeBox___0SCs
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__kQkLp
+                                      sty.svg__s2TW
                                     )}
                                     role={"img"}
                                   />
@@ -3499,7 +3502,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__nExKy
+                                  sty.freeBox__zwfgc
                                 )}
                               >
                                 {false ? (
@@ -3507,7 +3510,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__v1PzM
+                                      sty.text__rnuFw
                                     )}
                                   >
                                     {"Label"}
@@ -3517,7 +3520,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__mq4Xz
+                                    sty.text__ghPsk
                                   )}
                                 >
                                   {"Ayam goreng"}
@@ -3529,19 +3532,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__n45YY
+                                sty.freeBox__nozQw
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___3Wzbo
+                                  sty.freeBox__yhN87
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___3X6Tt
+                                    sty.svg__syfw
                                   )}
                                   role={"img"}
                                 />
@@ -3550,13 +3553,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__nY4Z6
+                                    sty.freeBox__rE9X1
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__ytbIy
+                                      sty.svg__hyJYe
                                     )}
                                     role={"img"}
                                   />
@@ -3567,7 +3570,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__ry1MF
+                                  sty.freeBox__n0XNo
                                 )}
                               >
                                 {false ? (
@@ -3575,7 +3578,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__gpTq
+                                      sty.text__wlNIa
                                     )}
                                   >
                                     {"Label"}
@@ -3585,7 +3588,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__tDto3
+                                    sty.text__q9UCo
                                   )}
                                 >
                                   {"Tempe orek"}
@@ -3597,19 +3600,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__oox99
+                                sty.freeBox__cbHCz
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__s3Duk
+                                  sty.freeBox__eh8Bg
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__sQ8J
+                                    sty.svg__cTqwm
                                   )}
                                   role={"img"}
                                 />
@@ -3618,13 +3621,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__vmK0D
+                                    sty.freeBox__z3KhC
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__rrrwl
+                                      sty.svg___3MCho
                                     )}
                                     role={"img"}
                                   />
@@ -3635,7 +3638,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___1Vgmj
+                                  sty.freeBox__sBmX
                                 )}
                               >
                                 {false ? (
@@ -3643,7 +3646,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__ch7HR
+                                      sty.text___2RfMc
                                     )}
                                   >
                                     {"Label"}
@@ -3653,7 +3656,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__nRP9
+                                    sty.text__rtolH
                                   )}
                                 >
                                   {"Bihun"}
@@ -3665,19 +3668,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__stga1
+                                sty.freeBox__hPm1P
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__yds09
+                                  sty.freeBox__igsc
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__vma3W
+                                    sty.svg__eFaQ
                                   )}
                                   role={"img"}
                                 />
@@ -3686,13 +3689,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__uvbY
+                                    sty.freeBox__siYzt
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg___5TTek
+                                      sty.svg___0MBc9
                                     )}
                                     role={"img"}
                                   />
@@ -3703,7 +3706,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__vvMq8
+                                  sty.freeBox__uUxSs
                                 )}
                               >
                                 {false ? (
@@ -3711,7 +3714,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__paJtb
+                                      sty.text___3JUlN
                                     )}
                                   >
                                     {"Label"}
@@ -3721,7 +3724,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__lopl
+                                    sty.text__bopRl
                                   )}
                                 >
                                   {"Lalapan"}
@@ -3733,19 +3736,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__hz9Ui
+                                sty.freeBox__snngD
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__uqLoj
+                                  sty.freeBox__xQd5T
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__lp0OR
+                                    sty.svg__qM54
                                   )}
                                   role={"img"}
                                 />
@@ -3754,13 +3757,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__c8Zv4
+                                    sty.freeBox__qFwLk
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__rRjDn
+                                      sty.svg__jMmqY
                                     )}
                                     role={"img"}
                                   />
@@ -3771,7 +3774,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__xPhJp
+                                  sty.freeBox__ujr9W
                                 )}
                               >
                                 {false ? (
@@ -3779,7 +3782,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__rhp4U
+                                      sty.text__beZnc
                                     )}
                                   >
                                     {"Label"}
@@ -3789,7 +3792,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__jIs2
+                                    sty.text__wvBEe
                                   )}
                                 >
                                   {"Kerupuk"}
@@ -3801,19 +3804,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__y00X
+                                sty.freeBox__z1Nnw
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__syTkH
+                                  sty.freeBox__fxD6K
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__nA8Ra
+                                    sty.svg__ebPaQ
                                   )}
                                   role={"img"}
                                 />
@@ -3822,13 +3825,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__b1Enk
+                                    sty.freeBox__qlhk5
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__kzefB
+                                      sty.svg__ihyZn
                                     )}
                                     role={"img"}
                                   />
@@ -3839,7 +3842,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__mbRjX
+                                  sty.freeBox___8Hb2R
                                 )}
                               >
                                 {false ? (
@@ -3847,7 +3850,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text___5SMIa
+                                      sty.text__kLub8
                                     )}
                                   >
                                     {"Label"}
@@ -3857,10 +3860,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__w5Gw
+                                    sty.text___1DaM
                                   )}
                                 >
-                                  {"Buah "}
+                                  {"Buah"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -3869,19 +3872,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__q4D4F
+                                sty.freeBox__hc0R
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__qrMl0
+                                  sty.freeBox__kf2D8
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___4T3D9
+                                    sty.svg__n2YPw
                                   )}
                                   role={"img"}
                                 />
@@ -3890,13 +3893,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__dlvxp
+                                    sty.freeBox__qec3P
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__cxuhp
+                                      sty.svg__h5Du2
                                     )}
                                     role={"img"}
                                   />
@@ -3907,7 +3910,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___4EvrP
+                                  sty.freeBox__f0Jxl
                                 )}
                               >
                                 {false ? (
@@ -3915,7 +3918,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__bZq0F
+                                      sty.text__rjGny
                                     )}
                                   >
                                     {"Label"}
@@ -3925,7 +3928,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__aZkUh
+                                    sty.text__o3Ts9
                                   )}
                                 >
                                   {"Air mineral "}
@@ -3937,7 +3940,7 @@ function PlasmicNasibox__RenderFunc(props: {
                         <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__kYZ
+                            sty.freeBox__de2T4
                           )}
                         >
                           <Stack__
@@ -3945,7 +3948,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox___853Gm
+                              sty.freeBox__sbkx9
                             )}
                           >
                             <Stack__
@@ -3953,14 +3956,14 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___30Tzy
+                                sty.freeBox__tk2CR
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text__sj9Nc
+                                  sty.text__ypCJb
                                 )}
                               >
                                 {"Tumpeng monas C"}
@@ -3970,21 +3973,21 @@ function PlasmicNasibox__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text___0NPpf
+                                sty.text__eO1TT
                               )}
                             >
-                              {"Rp. 500.000"}
+                              {"Rp.500.000"}
                             </div>
                             <Button2
                               className={classNames(
                                 "__wab_instance",
-                                sty.button2__fVse
+                                sty.button2__lnWkI
                               )}
                               endIcon={
                                 <Icon38Icon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__bdvWz
+                                    sty.svg__yeuXi
                                   )}
                                   role={"img"}
                                 />
@@ -3993,7 +3996,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <ChecksvgIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___1PKiJ
+                                    sty.svg__qOz0E
                                   )}
                                   role={"img"}
                                 />
@@ -4004,7 +4007,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text__gBGuO
+                                  sty.text__bj0Q9
                                 )}
                               >
                                 {"Booking"}
@@ -4014,7 +4017,7 @@ function PlasmicNasibox__RenderFunc(props: {
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__sq3Gt
+                              sty.freeBox___8Nr9R
                             )}
                           />
 
@@ -4023,7 +4026,7 @@ function PlasmicNasibox__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__oiMxo
+                              sty.freeBox__o0Do
                             )}
                           >
                             <Stack__
@@ -4031,19 +4034,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__v7TrP
+                                sty.freeBox__k3Mcm
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__lmsfV
+                                  sty.freeBox__iUmeu
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__y9Ic4
+                                    sty.svg__jDig
                                   )}
                                   role={"img"}
                                 />
@@ -4052,13 +4055,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__wSlJ6
+                                    sty.freeBox___6GYIp
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__ap3WV
+                                      sty.svg__bmZq4
                                     )}
                                     role={"img"}
                                   />
@@ -4069,7 +4072,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__d8XFr
+                                  sty.freeBox__srH5W
                                 )}
                               >
                                 {false ? (
@@ -4077,7 +4080,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__yAeui
+                                      sty.text__d1Ra
                                     )}
                                   >
                                     {"Label"}
@@ -4087,7 +4090,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__l1IPq
+                                    sty.text__g7Rvw
                                   )}
                                 >
                                   {"10 Orang"}
@@ -4099,19 +4102,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__iYsqs
+                                sty.freeBox__sqY6U
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__y7FTt
+                                  sty.freeBox__z1Sw0
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___4YLb4
+                                    sty.svg__vYqY
                                   )}
                                   role={"img"}
                                 />
@@ -4120,13 +4123,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__ay4H
+                                    sty.freeBox__wQnsC
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__grcPk
+                                      sty.svg__hniei
                                     )}
                                     role={"img"}
                                   />
@@ -4137,7 +4140,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__tT2ES
+                                  sty.freeBox__frfvg
                                 )}
                               >
                                 {false ? (
@@ -4145,7 +4148,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__aOpBo
+                                      sty.text__i5RYy
                                     )}
                                   >
                                     {"Label"}
@@ -4155,10 +4158,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__deLkQ
+                                    sty.text__xwoGu
                                   )}
                                 >
-                                  {"Nasi kuning "}
+                                  {"Nasi kuning"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -4167,19 +4170,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___6Aaf
+                                sty.freeBox__iJtqK
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__a7HMk
+                                  sty.freeBox__hcwga
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__x37Hl
+                                    sty.svg__aHsO5
                                   )}
                                   role={"img"}
                                 />
@@ -4188,13 +4191,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__sfL5P
+                                    sty.freeBox__v26K
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__a69X7
+                                      sty.svg__zvYgF
                                     )}
                                     role={"img"}
                                   />
@@ -4205,7 +4208,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__yvDb0
+                                  sty.freeBox__tic4F
                                 )}
                               >
                                 {false ? (
@@ -4213,7 +4216,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__fWFt9
+                                      sty.text__fdc0N
                                     )}
                                   >
                                     {"Label"}
@@ -4223,7 +4226,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__hqLUo
+                                    sty.text__dIlIk
                                   )}
                                 >
                                   {"Ayam goreng"}
@@ -4235,19 +4238,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__ffvvX
+                                sty.freeBox__fwe1M
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___0I7R8
+                                  sty.freeBox__pE5C
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__p3GiL
+                                    sty.svg__imOc7
                                   )}
                                   role={"img"}
                                 />
@@ -4256,13 +4259,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox___1JsFv
+                                    sty.freeBox___5MbK8
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__wW8X
+                                      sty.svg__ixJ53
                                     )}
                                     role={"img"}
                                   />
@@ -4273,7 +4276,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___8WkGh
+                                  sty.freeBox__eug9H
                                 )}
                               >
                                 {false ? (
@@ -4281,7 +4284,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__myJ8O
+                                      sty.text__ruUx2
                                     )}
                                   >
                                     {"Label"}
@@ -4291,7 +4294,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__d0NfX
+                                    sty.text___2DgEk
                                   )}
                                 >
                                   {"Tempe orek"}
@@ -4303,19 +4306,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__fbtNd
+                                sty.freeBox__x6DWb
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___6UWaR
+                                  sty.freeBox___5AX6
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__pzdOp
+                                    sty.svg__cE9XT
                                   )}
                                   role={"img"}
                                 />
@@ -4324,13 +4327,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__rkJfJ
+                                    sty.freeBox__w84B2
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__kNewB
+                                      sty.svg__j4SE
                                     )}
                                     role={"img"}
                                   />
@@ -4341,7 +4344,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___9HU8
+                                  sty.freeBox__lSKcN
                                 )}
                               >
                                 {false ? (
@@ -4349,7 +4352,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__hbEbv
+                                      sty.text__ozGq9
                                     )}
                                   >
                                     {"Label"}
@@ -4359,7 +4362,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__ikXjJ
+                                    sty.text__gtBNv
                                   )}
                                 >
                                   {"Bihun"}
@@ -4371,19 +4374,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__oNnCx
+                                sty.freeBox__vfso8
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__i7Hyx
+                                  sty.freeBox__hpOcC
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__xBd
+                                    sty.svg__q8ObY
                                   )}
                                   role={"img"}
                                 />
@@ -4392,13 +4395,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox___4Pf1
+                                    sty.freeBox__cPb5
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__jcv2K
+                                      sty.svg__yfrEw
                                     )}
                                     role={"img"}
                                   />
@@ -4409,7 +4412,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox___2YFgj
+                                  sty.freeBox__ec58P
                                 )}
                               >
                                 {false ? (
@@ -4417,7 +4420,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__dFH
+                                      sty.text__wNyyE
                                     )}
                                   >
                                     {"Label"}
@@ -4427,7 +4430,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__tJHzK
+                                    sty.text__nQs9K
                                   )}
                                 >
                                   {"Lalapan"}
@@ -4439,19 +4442,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___1TLiq
+                                sty.freeBox___9YrZ
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__iPLdh
+                                  sty.freeBox__gfnEt
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__g7Oxo
+                                    sty.svg__yqfT
                                   )}
                                   role={"img"}
                                 />
@@ -4460,13 +4463,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__yzv5G
+                                    sty.freeBox___1OuTv
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__xyjV1
+                                      sty.svg__vFUdd
                                     )}
                                     role={"img"}
                                   />
@@ -4477,7 +4480,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__aPBz
+                                  sty.freeBox___2BaG8
                                 )}
                               >
                                 {false ? (
@@ -4485,7 +4488,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text___9UXbz
+                                      sty.text__cA5Z
                                     )}
                                   >
                                     {"Label"}
@@ -4495,7 +4498,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__tZuE
+                                    sty.text__hwVK
                                   )}
                                 >
                                   {"Kerupuk"}
@@ -4507,19 +4510,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__x4G2M
+                                sty.freeBox__xh1Q9
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__rB2P
+                                  sty.freeBox__uHiaX
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg___2Kepk
+                                    sty.svg__nkcMi
                                   )}
                                   role={"img"}
                                 />
@@ -4528,13 +4531,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__qqA1R
+                                    sty.freeBox___9Qrw
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg___8B1Jw
+                                      sty.svg__hAyHp
                                     )}
                                     role={"img"}
                                   />
@@ -4545,7 +4548,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__doDn8
+                                  sty.freeBox__romAv
                                 )}
                               >
                                 {false ? (
@@ -4553,7 +4556,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__mvXt
+                                      sty.text___1F509
                                     )}
                                   >
                                     {"Label"}
@@ -4563,10 +4566,10 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__islDj
+                                    sty.text__eEnHn
                                   )}
                                 >
-                                  {"Buah "}
+                                  {"Buah"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -4575,19 +4578,19 @@ function PlasmicNasibox__RenderFunc(props: {
                               hasGap={true}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__vEwwt
+                                sty.freeBox__g6Jxy
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__qd39
+                                  sty.freeBox__jwbqo
                                 )}
                               >
                                 <IconIcon
                                   className={classNames(
                                     projectcss.all,
-                                    sty.svg__iArYe
+                                    sty.svg___0DuT
                                   )}
                                   role={"img"}
                                 />
@@ -4596,13 +4599,13 @@ function PlasmicNasibox__RenderFunc(props: {
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__vwQjL
+                                    sty.freeBox___6YlpQ
                                   )}
                                 >
                                   <IconIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__bVJhy
+                                      sty.svg__eaSRw
                                     )}
                                     role={"img"}
                                   />
@@ -4613,7 +4616,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 hasGap={true}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__ydGeb
+                                  sty.freeBox___17ZrL
                                 )}
                               >
                                 {false ? (
@@ -4621,7 +4624,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__rNtVe
+                                      sty.text__fwia7
                                     )}
                                   >
                                     {"Label"}
@@ -4631,7 +4634,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__pdPp
+                                    sty.text___0AylT
                                   )}
                                 >
                                   {"Air mineral "}

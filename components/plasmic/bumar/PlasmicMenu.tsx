@@ -259,7 +259,7 @@ function PlasmicMenu__RenderFunc(props: {
                     sty.text__eVtU2
                   )}
                 >
-                  {"Kue kering"}
+                  {"Kue Kering"}
                 </div>
               </section>
             </div>
