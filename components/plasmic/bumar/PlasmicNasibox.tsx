@@ -136,7 +136,7 @@ function PlasmicNasibox__RenderFunc(props: {
         path: "tabs.activeKey",
         type: "private",
         variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "2"
+        initFunc: ({ $props, $state, $queries, $ctx }) => "3"
       }
     ],
     [$props, $ctx, $refs]
@@ -278,7 +278,7 @@ function PlasmicNasibox__RenderFunc(props: {
               animateTabContent={false}
               animated={true}
               className={classNames("__wab_instance", sty.tabs)}
-              defaultActiveKey={"2"}
+              defaultActiveKey={"3"}
               items={
                 <React.Fragment>
                   <AntdTabItem
@@ -4701,7 +4701,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   sty.text__yBnqa
                                 )}
                               >
-                                {"Paket 1"}
+                                {"Paket A"}
                               </div>
                             </Stack__>
                             <div
@@ -4828,75 +4828,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__xfCx
                                   )}
                                 >
-                                  {"Nasi"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__cT17I
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___7Gobs
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__oRpvK
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__zWs3F
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__yVzfG
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__l2DFu
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__rtL5Y
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___4Y6Cr
-                                  )}
-                                >
-                                  {"Rendang"}
+                                  {"Nasi bakar ikan teri"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5032,7 +4964,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__rj3Vf
                                   )}
                                 >
-                                  {"Ayam teriyaki "}
+                                  {"Telur balado"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5100,7 +5032,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__vsUcp
                                   )}
                                 >
-                                  {"Bihun"}
+                                  {"Sambal"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5168,7 +5100,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__i9VoW
                                   )}
                                 >
-                                  {"Kerupuk"}
+                                  {"Tahu"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5236,7 +5168,75 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__tdrXe
                                   )}
                                 >
-                                  {"Buah "}
+                                  {"Bihun"}
+                                </div>
+                              </Stack__>
+                            </Stack__>
+                            <Stack__
+                              as={"div"}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__u4Fws
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__niUzL
+                                )}
+                              >
+                                <IconIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__pBaS
+                                  )}
+                                  role={"img"}
+                                />
+                              </div>
+                              {false ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___4K43L
+                                  )}
+                                >
+                                  <IconIcon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg__m8ZTv
+                                    )}
+                                    role={"img"}
+                                  />
+                                </div>
+                              ) : null}
+                              <Stack__
+                                as={"div"}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___74Jx
+                                )}
+                              >
+                                {false ? (
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__lXo4E
+                                    )}
+                                  >
+                                    {"Label"}
+                                  </div>
+                                ) : null}
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__wzgNx
+                                  )}
+                                >
+                                  {"Buah"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5308,74 +5308,6 @@ function PlasmicNasibox__RenderFunc(props: {
                                 </div>
                               </Stack__>
                             </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__u4Fws
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__niUzL
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__pBaS
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox___4K43L
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__m8ZTv
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___74Jx
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__lXo4E
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__wzgNx
-                                  )}
-                                >
-                                  {"Teh kotak"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
                           </Stack__>
                         </div>
                         <div
@@ -5407,7 +5339,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   sty.text__ddLbM
                                 )}
                               >
-                                {"Paket 2"}
+                                {"Paket B"}
                               </div>
                             </Stack__>
                             <div
@@ -5534,7 +5466,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text___1Qscj
                                   )}
                                 >
-                                  {"Nasi"}
+                                  {"Nasi bakar ikan tongkol"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5602,7 +5534,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text___5177S
                                   )}
                                 >
-                                  {"Ayam bakar"}
+                                  {"Tumisan"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5670,7 +5602,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__fiZgB
                                   )}
                                 >
-                                  {"Telur balado"}
+                                  {"Tahu"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5738,7 +5670,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__nwvWr
                                   )}
                                 >
-                                  {"Tumisan"}
+                                  {"Sambal"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -5806,211 +5738,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__ofkHh
                                   )}
                                 >
-                                  {"Bihun"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__wzncW
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___3Drb
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__yayd9
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__zQcM
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__ck8Bh
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__dE9R
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__gnSzo
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__mkuM
-                                  )}
-                                >
-                                  {"Sambal"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__miPf2
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__l8JzB
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg___9Neru
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__xdhWp
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__tEq9I
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__dytLq
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__noAr
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__e9IWg
-                                  )}
-                                >
-                                  {"Kerupuk"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__sqXko
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___8CsqW
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg___7CgOc
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__cy3N1
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg___1TyzE
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__hc7GF
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__nbxMm
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___5KzD2
-                                  )}
-                                >
-                                  {"Air mineral "}
+                                  {"Orek tempe"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -6082,6 +5810,74 @@ function PlasmicNasibox__RenderFunc(props: {
                                 </div>
                               </Stack__>
                             </Stack__>
+                            <Stack__
+                              as={"div"}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__sqXko
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___8CsqW
+                                )}
+                              >
+                                <IconIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___7CgOc
+                                  )}
+                                  role={"img"}
+                                />
+                              </div>
+                              {false ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__cy3N1
+                                  )}
+                                >
+                                  <IconIcon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg___1TyzE
+                                    )}
+                                    role={"img"}
+                                  />
+                                </div>
+                              ) : null}
+                              <Stack__
+                                as={"div"}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__hc7GF
+                                )}
+                              >
+                                {false ? (
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__nbxMm
+                                    )}
+                                  >
+                                    {"Label"}
+                                  </div>
+                                ) : null}
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___5KzD2
+                                  )}
+                                >
+                                  {"Air mineral "}
+                                </div>
+                              </Stack__>
+                            </Stack__>
                           </Stack__>
                         </div>
                         <div
@@ -6113,7 +5909,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                   sty.text__rLeW
                                 )}
                               >
-                                {"Paket 3"}
+                                {"Paket C"}
                               </div>
                             </Stack__>
                             <div
@@ -6123,7 +5919,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                 sty.text__xlo7T
                               )}
                             >
-                              {"Rp.38.000"}
+                              {"Rp.40.000"}
                             </div>
                             <Button2
                               className={classNames(
@@ -6240,7 +6036,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__a9Op
                                   )}
                                 >
-                                  {"Nasi"}
+                                  {"Nasi bakar ayam"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -6308,7 +6104,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__izVio
                                   )}
                                 >
-                                  {"Ayam goreng"}
+                                  {"Tumisan"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -6376,211 +6172,7 @@ function PlasmicNasibox__RenderFunc(props: {
                                     sty.text__tsHw
                                   )}
                                 >
-                                  {"Lalapan"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__yvucd
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___3SqKm
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__ir8H
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__vllt3
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__gSWd
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__vnlmR
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__b5OKr
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__nWlId
-                                  )}
-                                >
-                                  {"Tempe orek"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__gfCHz
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__kxOgo
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__d3UqU
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__lCuFp
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__lm4Rw
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__hlyMx
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text___5Sra6
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___7OIe
-                                  )}
-                                >
-                                  {"Tahu"}
-                                </div>
-                              </Stack__>
-                            </Stack__>
-                            <Stack__
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__n9Cdw
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__uo7EF
-                                )}
-                              >
-                                <IconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__jugkG
-                                  )}
-                                  role={"img"}
-                                />
-                              </div>
-                              {false ? (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__rSoAz
-                                  )}
-                                >
-                                  <IconIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg___2Fwlq
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              ) : null}
-                              <Stack__
-                                as={"div"}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___2ByIx
-                                )}
-                              >
-                                {false ? (
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__xszCy
-                                    )}
-                                  >
-                                    {"Label"}
-                                  </div>
-                                ) : null}
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__oUpCu
-                                  )}
-                                >
-                                  {"Kerupuk"}
+                                  {"Telur balado"}
                                 </div>
                               </Stack__>
                             </Stack__>
@@ -6649,6 +6241,74 @@ function PlasmicNasibox__RenderFunc(props: {
                                   )}
                                 >
                                   {"Sambal"}
+                                </div>
+                              </Stack__>
+                            </Stack__>
+                            <Stack__
+                              as={"div"}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__n9Cdw
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__uo7EF
+                                )}
+                              >
+                                <IconIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__jugkG
+                                  )}
+                                  role={"img"}
+                                />
+                              </div>
+                              {false ? (
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__rSoAz
+                                  )}
+                                >
+                                  <IconIcon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg___2Fwlq
+                                    )}
+                                    role={"img"}
+                                  />
+                                </div>
+                              ) : null}
+                              <Stack__
+                                as={"div"}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___2ByIx
+                                )}
+                              >
+                                {false ? (
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__xszCy
+                                    )}
+                                  >
+                                    {"Label"}
+                                  </div>
+                                ) : null}
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__oUpCu
+                                  )}
+                                >
+                                  {"Kerupuk"}
                                 </div>
                               </Stack__>
                             </Stack__>
