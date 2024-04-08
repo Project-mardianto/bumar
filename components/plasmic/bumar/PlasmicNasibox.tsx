@@ -136,7 +136,7 @@ function PlasmicNasibox__RenderFunc(props: {
         path: "tabs.activeKey",
         type: "private",
         variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "3"
+        initFunc: ({ $props, $state, $queries, $ctx }) => "1"
       }
     ],
     [$props, $ctx, $refs]
@@ -278,7 +278,7 @@ function PlasmicNasibox__RenderFunc(props: {
               animateTabContent={false}
               animated={true}
               className={classNames("__wab_instance", sty.tabs)}
-              defaultActiveKey={"3"}
+              defaultActiveKey={"1"}
               items={
                 <React.Fragment>
                   <AntdTabItem
