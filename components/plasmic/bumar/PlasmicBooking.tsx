@@ -182,22 +182,22 @@ function PlasmicBooking__RenderFunc(props: {
               role={"img"}
             />
           </Stack__>
-          <div className={classNames(projectcss.all, sty.columns__ePdcM)}>
+          <div className={classNames(projectcss.all, sty.columns__jaqZ)}>
             <PlasmicLink__
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column__ky4SD
+                sty.column__ujNNt
               )}
               component={Link}
               href={`/nasibox`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section__brgwL)}
+                className={classNames(projectcss.all, sty.section___2Q4W)}
               >
                 <RiceSvgrepoCom2SvgIcon
-                  className={classNames(projectcss.all, sty.svg__z94Xc)}
+                  className={classNames(projectcss.all, sty.svg__o9UiP)}
                   role={"img"}
                 />
 
@@ -205,7 +205,7 @@ function PlasmicBooking__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__dimbf
+                    sty.text__eIW6
                   )}
                 >
                   {"Nasi Box"}
@@ -216,17 +216,17 @@ function PlasmicBooking__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column___25FpQ
+                sty.column__fswq
               )}
               component={Link}
               href={`/kue-kering`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section__nKlt)}
+                className={classNames(projectcss.all, sty.section___7C7Ml)}
               >
                 <PancakesSvgrepoComsvgIcon
-                  className={classNames(projectcss.all, sty.svg__jh7Gw)}
+                  className={classNames(projectcss.all, sty.svg___6Own9)}
                   role={"img"}
                 />
 
@@ -234,7 +234,7 @@ function PlasmicBooking__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text___5Kuou
+                    sty.text__zPq9R
                   )}
                 >
                   {"Kue Kering"}
@@ -245,17 +245,17 @@ function PlasmicBooking__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
-                sty.column___5PxUn
+                sty.column___1EF
               )}
               component={Link}
               href={`/Snack-box`}
               platform={"nextjs"}
             >
               <section
-                className={classNames(projectcss.all, sty.section__u7Lg0)}
+                className={classNames(projectcss.all, sty.section__mgrZ4)}
               >
                 <SaltySnackSvgrepoComsvgIcon
-                  className={classNames(projectcss.all, sty.svg__p6VWb)}
+                  className={classNames(projectcss.all, sty.svg__jDee1)}
                   role={"img"}
                 />
 
@@ -263,19 +263,19 @@ function PlasmicBooking__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__zVmMf
+                    sty.text__tGeHc
                   )}
                 >
                   {"Snack Box"}
                 </div>
               </section>
             </PlasmicLink__>
-            <div className={classNames(projectcss.all, sty.column__yN85D)}>
+            <div className={classNames(projectcss.all, sty.column__tc4Np)}>
               <section
-                className={classNames(projectcss.all, sty.section__aIksw)}
+                className={classNames(projectcss.all, sty.section__rcxB4)}
               >
                 <GiftSvgrepoCom2SvgIcon
-                  className={classNames(projectcss.all, sty.svg__ncFGg)}
+                  className={classNames(projectcss.all, sty.svg__hpdJ)}
                   role={"img"}
                 />
 
@@ -283,7 +283,7 @@ function PlasmicBooking__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__igHhO
+                    sty.text__mgZMp
                   )}
                 >
                   {"Hampers "}
