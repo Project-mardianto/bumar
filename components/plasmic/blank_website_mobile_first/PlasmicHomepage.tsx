@@ -93,10 +93,10 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
+  section?: Flex__<"section">;
   banner?: Flex__<"svg">;
   button2?: Flex__<typeof Button2>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
-  columns?: Flex__<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -186,7 +186,11 @@ function PlasmicHomepage__RenderFunc(props: {
         >
           <Navbar className={classNames("__wab_instance", sty.navbar__qNpv4)} />
 
-          <section className={classNames(projectcss.all, sty.section__u9A)}>
+          <section
+            data-plasmic-name={"section"}
+            data-plasmic-override={overrides.section}
+            className={classNames(projectcss.all, sty.section)}
+          >
             <Stack__
               as={"div"}
               hasGap={true}
@@ -261,6 +265,15 @@ function PlasmicHomepage__RenderFunc(props: {
                 </Button2>
               </Stack__>
             </Stack__>
+          </section>
+          {(
+            hasVariant(globalVariants, "screen", "desktopOnly") ? true : false
+          ) ? (
+            <Navbar
+              className={classNames("__wab_instance", sty.navbar___09PVy)}
+            />
+          ) : null}
+          <div className={classNames(projectcss.all, sty.freeBox__t8Qbq)}>
             {(() => {
               const child$Props = {
                 arrows: false,
@@ -305,301 +318,143 @@ function PlasmicHomepage__RenderFunc(props: {
                   {...child$Props}
                 >
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__ilM1S)}
+                    className={classNames(projectcss.all, sty.freeBox__o07Ab)}
                   >
-                    <section
-                      className={classNames(projectcss.all, sty.section__dFgZc)}
+                    <div
+                      className={classNames(projectcss.all, sty.columns__azx2O)}
                     >
-                      <section
+                      <div
                         className={classNames(
                           projectcss.all,
-                          sty.section__dydRv
+                          sty.column__r63Hn
                         )}
                       >
                         <PlasmicImg__
                           alt={""}
-                          className={classNames(sty.img__gpS29)}
-                          displayHeight={"auto"}
+                          className={classNames(sty.img___8L17C)}
+                          displayHeight={
+                            hasVariant(globalVariants, "screen", "desktopOnly")
+                              ? "534px"
+                              : "143px"
+                          }
                           displayMaxHeight={"none"}
                           displayMaxWidth={"100%"}
                           displayMinHeight={"0"}
                           displayMinWidth={"0"}
                           displayWidth={
                             hasVariant(globalVariants, "screen", "desktopOnly")
-                              ? "822px"
+                              ? "auto"
                               : "100%"
                           }
                           loading={"lazy"}
                           src={{
-                            src: "/plasmic/bumar/images/_1650607449326RekomendasiHampersLebaranTerbaikDenganHargaTerjangkaujpg.jpg",
-                            fullWidth: 762,
-                            fullHeight: 706,
+                            src: "/plasmic/bumar/images/wrappedGiftTiedWithTagStringBeautifulFlowerWoodenSurfacejpg.jpg",
+                            fullWidth: 5409,
+                            fullHeight: 3606,
                             aspectRatio: undefined
                           }}
                         />
-                      </section>
-                      <section
+                      </div>
+                      <div
                         className={classNames(
                           projectcss.all,
-                          sty.section__dGoNo
+                          sty.column___9ZBq5
                         )}
                       >
-                        <div
+                        <h1
                           className={classNames(
                             projectcss.all,
+                            projectcss.h1,
                             projectcss.__wab_text,
-                            sty.text__rqBom
+                            sty.h1__ow4Cy
                           )}
                         >
                           {"Hampers"}
-                        </div>
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__wr3G
-                        )}
-                      >
+                        </h1>
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__sKmNg
+                            sty.text__afdHi
                           )}
                         >
                           {
-                            "Dengan kemasan eksklusif dari bumar,  Kami menawarkan berbagai produk mulai dari kue kering dan oleh-oleh premium, hingga hadiah."
+                            "Buat hadiah custom hampers yang disesuaikan sepenuhnya. Mulai dari kotaknya hingga isi di dalamnya, sesuai dengan kebutuhan perusahaan  Anda"
                           }
                         </div>
-                      </section>
-                    </section>
+                      </div>
+                    </div>
                   </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__ko5B8)}
+                    className={classNames(projectcss.all, sty.freeBox__v9HYr)}
                   >
-                    <section
-                      className={classNames(projectcss.all, sty.section__nxEjW)}
+                    <div
+                      className={classNames(projectcss.all, sty.columns__dgsfY)}
                     >
-                      <section
+                      <div
                         className={classNames(
                           projectcss.all,
-                          sty.section__ecXub
+                          sty.column__vr2Ka
                         )}
                       >
                         <PlasmicImg__
                           alt={""}
-                          className={classNames(sty.img__nig)}
-                          displayHeight={"auto"}
+                          className={classNames(sty.img__bcieu)}
+                          displayHeight={
+                            hasVariant(globalVariants, "screen", "desktopOnly")
+                              ? "534px"
+                              : "143px"
+                          }
                           displayMaxHeight={"none"}
                           displayMaxWidth={"100%"}
                           displayMinHeight={"0"}
                           displayMinWidth={"0"}
                           displayWidth={
                             hasVariant(globalVariants, "screen", "desktopOnly")
-                              ? "822px"
+                              ? "auto"
                               : "100%"
                           }
                           loading={"lazy"}
                           src={{
-                            src: "/plasmic/bumar/images/_1650607449326RekomendasiHampersLebaranTerbaikDenganHargaTerjangkaujpg.jpg",
-                            fullWidth: 762,
-                            fullHeight: 706,
+                            src: "/plasmic/bumar/images/wrappedGiftTiedWithTagStringBeautifulFlowerWoodenSurfacejpg.jpg",
+                            fullWidth: 5409,
+                            fullHeight: 3606,
                             aspectRatio: undefined
                           }}
                         />
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__evC2I
-                        )}
+                      </div>
+                      <div
+                        className={classNames(projectcss.all, sty.column__xzYh)}
                       >
-                        <div
+                        <h1
                           className={classNames(
                             projectcss.all,
+                            projectcss.h1,
                             projectcss.__wab_text,
-                            sty.text__x8I9B
+                            sty.h1__kt5Gm
                           )}
                         >
-                          {"Nasi box"}
-                        </div>
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__s6IfS
-                        )}
-                      >
+                          {"Hampers"}
+                        </h1>
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__qJihe
+                            sty.text__cJd2B
                           )}
                         >
                           {
-                            "Dengan kemasan eksklusif dari bumar,  Kami menawarkan berbagai produk mulai dari kue kering dan oleh-oleh premium, hingga hadiah."
+                            "Buat hadiah custom hampers yang disesuaikan sepenuhnya. Mulai dari kotaknya hingga isi di dalamnya, sesuai dengan kebutuhan perusahaan  Anda"
                           }
                         </div>
-                      </section>
-                    </section>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ckcfo)}
-                  >
-                    <section
-                      className={classNames(projectcss.all, sty.section__vz9Cn)}
-                    >
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__qXRk
-                        )}
-                      >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__fmcJj)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={
-                            hasVariant(globalVariants, "screen", "desktopOnly")
-                              ? "822px"
-                              : "100%"
-                          }
-                          loading={"lazy"}
-                          src={{
-                            src: "/plasmic/bumar/images/_1650607449326RekomendasiHampersLebaranTerbaikDenganHargaTerjangkaujpg.jpg",
-                            fullWidth: 762,
-                            fullHeight: 706,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section___6Am1
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__pQw0S
-                          )}
-                        >
-                          {"Nasi box"}
-                        </div>
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__wNGyy
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__s23No
-                          )}
-                        >
-                          {
-                            "Dengan kemasan eksklusif dari bumar,  Kami menawarkan berbagai produk mulai dari kue kering dan oleh-oleh premium, hingga hadiah."
-                          }
-                        </div>
-                      </section>
-                    </section>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__srlox)}
-                  >
-                    <section
-                      className={classNames(projectcss.all, sty.section__rw7)}
-                    >
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__q9ImD
-                        )}
-                      >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__jzHj)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={
-                            hasVariant(globalVariants, "screen", "desktopOnly")
-                              ? "822px"
-                              : "100%"
-                          }
-                          loading={"lazy"}
-                          src={{
-                            src: "/plasmic/bumar/images/_1650607449326RekomendasiHampersLebaranTerbaikDenganHargaTerjangkaujpg.jpg",
-                            fullWidth: 762,
-                            fullHeight: 706,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__i2Ixr
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__xUmf
-                          )}
-                        >
-                          {"Nasi box"}
-                        </div>
-                      </section>
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__onkfy
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___1OgvM
-                          )}
-                        >
-                          {
-                            "Dengan kemasan eksklusif dari bumar,  Kami menawarkan berbagai produk mulai dari kue kering dan oleh-oleh premium, hingga hadiah."
-                          }
-                        </div>
-                      </section>
-                    </section>
+                      </div>
+                    </div>
                   </div>
                 </SliderWrapper>
               );
             })()}
-          </section>
-          {(
-            hasVariant(globalVariants, "screen", "desktopOnly") ? true : false
-          ) ? (
-            <Navbar
-              className={classNames("__wab_instance", sty.navbar___09PVy)}
-            />
-          ) : null}
-          <div
-            data-plasmic-name={"columns"}
-            data-plasmic-override={overrides.columns}
-            className={classNames(projectcss.all, sty.columns)}
-          >
+          </div>
+          <div className={classNames(projectcss.all, sty.columns__fZogd)}>
             <PlasmicLink__
               className={classNames(
                 projectcss.all,
@@ -708,21 +563,21 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "banner", "button2", "sliderCarousel", "columns"],
+  root: ["root", "section", "banner", "button2", "sliderCarousel"],
+  section: ["section", "banner", "button2"],
   banner: ["banner"],
   button2: ["button2"],
-  sliderCarousel: ["sliderCarousel"],
-  columns: ["columns"]
+  sliderCarousel: ["sliderCarousel"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  section: "section";
   banner: "svg";
   button2: typeof Button2;
   sliderCarousel: typeof SliderWrapper;
-  columns: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -785,10 +640,10 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    section: makeNodeComponent("section"),
     banner: makeNodeComponent("banner"),
     button2: makeNodeComponent("button2"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
-    columns: makeNodeComponent("columns"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

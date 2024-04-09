@@ -649,6 +649,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Hampers "
+        },
+        {
+          "id": "BBo4dg19WPku",
+          "name": "TentangKami",
+          "type": "managed",
+          "projectId": "r5Q4Z1cxFkCcTJmiuBHM4s",
+          "renderModuleFilePath": "plasmic/bumar/PlasmicTentangKami.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/bumar/PlasmicTentangKami.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
       "icons": [
@@ -978,6 +992,11 @@
           "id": "4d5Ck3pgY1zp",
           "name": "20230204_112835-01.jpg 2",
           "filePath": "../public/plasmic/bumar/images/_2023020411283501Jpg2.jpg"
+        },
+        {
+          "id": "w2ark7L6xbMS",
+          "name": "wrapped-gift-tied-with-tag-string-beautiful-flower-wooden-surface.jpg",
+          "filePath": "../public/plasmic/bumar/images/wrappedGiftTiedWithTagStringBeautifulFlowerWoodenSurfacejpg.jpg"
         }
       ],
       "indirect": false,

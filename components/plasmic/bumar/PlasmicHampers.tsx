@@ -199,9 +199,9 @@ function PlasmicHampers__RenderFunc(props: {
               }
               loading={"lazy"}
               src={{
-                src: "/plasmic/bumar/images/_0475316001650443155Shutterstock1718969488Jpg.jpg",
-                fullWidth: 1200,
-                fullHeight: 675,
+                src: "/plasmic/bumar/images/wrappedGiftTiedWithTagStringBeautifulFlowerWoodenSurfacejpg.jpg",
+                fullWidth: 5409,
+                fullHeight: 3606,
                 aspectRatio: undefined
               }}
             />
